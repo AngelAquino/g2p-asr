@@ -1,0 +1,656 @@
+# lattice-best-path --lm-scale=9 --word-symbol-table=exp/tri2b/graph/words.txt "ark:gunzip -c exp/tri2b/decode/lat.*.gz|" ark,t:exp/tri2b/decode/scoring/9.tra 
+# Started at Sat Apr 27 20:59:12 PST 2019
+#
+lattice-best-path --lm-scale=9 --word-symbol-table=exp/tri2b/graph/words.txt 'ark:gunzip -c exp/tri2b/decode/lat.*.gz|' ark,t:exp/tri2b/decode/scoring/9.tra 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0002, best cost 760.492 + 30193.4 = 30953.9 over 396 frames.
+0738.130117.075101.0002 L UH V ER L G N K L N A L SH O N A U Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0003, best cost 780.154 + 23429.2 = 24209.4 over 316 frames.
+0738.130117.075101.0003 L S S I D B U L O N B ER L K Q U R A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0004, best cost 1192.14 + 32335.5 = 33527.7 over 426 frames.
+0738.130117.075101.0004 L UH L T O B R N G S O L S O L G L N A L SH O L K ER L T Q U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0005, best cost 1211.81 + 31456.3 = 32668.1 over 426 frames.
+0738.130117.075101.0005 M A K T O N G S S R B U O R G L G A SH UH K L L T Q U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0006, best cost 1064.9 + 32456.3 = 33521.2 over 416 frames.
+0738.130117.075101.0006 Q JH O L ER O S Q A G T O S Q G R N A SH UH K A Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0007, best cost 1104.32 + 32867 = 33971.3 over 436 frames.
+0738.130117.075101.0007 A Q CH U B B L E R G L N A SH UH O L K R G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0008, best cost 1429.87 + 32889.6 = 34319.5 over 436 frames.
+0738.130117.075101.0008 JH O S D Q A G D U M A K A G P U L G R O L K R G L G L SH O L K ER L T Q U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0009, best cost 792.317 + 28312 = 29104.3 over 386 frames.
+0738.130117.075101.0009 A NG K W A NG K L K L N A SH UH L L P A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0010, best cost 558.503 + 20795.6 = 21354.1 over 296 frames.
+0738.130117.075101.0010 L P U O B ER L K N L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0011, best cost 321.855 + 15502.2 = 15824.1 over 226 frames.
+0738.130117.075101.0011 G A G W A Q I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0012, best cost 293.191 + 14614.6 = 14907.8 over 206 frames.
+0738.130117.075101.0012 A P G D O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0013, best cost 464.838 + 18438 = 18902.8 over 276 frames.
+0738.130117.075101.0013 O ER O S NG JH I N N A L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0014, best cost 346.57 + 14678.7 = 15025.3 over 206 frames.
+0738.130117.075101.0014 L N I S S L O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0015, best cost 428.38 + 16618.3 = 17046.6 over 236 frames.
+0738.130117.075101.0015 L B O T U B O T O G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0016, best cost 401.684 + 18848.3 = 19250 over 256 frames.
+0738.130117.075101.0016 L A Q B R I N Y 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0017, best cost 386.707 + 16432.8 = 16819.5 over 256 frames.
+0738.130117.075101.0017 A Q A Q D O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0018, best cost 395.593 + 17645.3 = 18040.9 over 246 frames.
+0738.130117.075101.0018 K A W I L O K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0019, best cost 489.77 + 19171.9 = 19661.7 over 276 frames.
+0738.130117.075101.0019 L A B U T L Q A B U T A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0020, best cost 446.692 + 15281.4 = 15728.1 over 226 frames.
+0738.130117.075101.0020 Q M I M I L O K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0021, best cost 440.03 + 20112.3 = 20552.3 over 276 frames.
+0738.130117.075101.0021 L UH L I S I Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0022, best cost 522.013 + 15119.2 = 15641.2 over 226 frames.
+0738.130117.075101.0022 K G N A K O A Q T UH T S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0023, best cost 342.443 + 16774.6 = 17117 over 236 frames.
+0738.130117.075101.0023 Q A T ER O S L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0024, best cost 534.966 + 16787.1 = 17322 over 246 frames.
+0738.130117.075101.0024 K A K B U O B ER O L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0025, best cost 499.741 + 17934.2 = 18434 over 246 frames.
+0738.130117.075101.0025 A Q M G N L U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0026, best cost 469.398 + 15746.2 = 16215.6 over 216 frames.
+0738.130117.075101.0026 K P U S W A M I S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0027, best cost 308.195 + 15649.4 = 15957.6 over 216 frames.
+0738.130117.075101.0027 A B U K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0028, best cost 296.985 + 14761 = 15058 over 206 frames.
+0738.130117.075101.0028 M A K UH T I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0029, best cost 338.148 + 14821.9 = 15160.1 over 206 frames.
+0738.130117.075101.0029 A A B O L S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0030, best cost 350.318 + 13811.2 = 14161.5 over 196 frames.
+0738.130117.075101.0030 L A U L A Q P U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0031, best cost 263.049 + 14249.8 = 14512.8 over 226 frames.
+0738.130117.075101.0031 P I L Q A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0032, best cost 264.007 + 12804.4 = 13068.4 over 176 frames.
+0738.130117.075101.0032 G T O U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0033, best cost 496.931 + 13189.6 = 13686.5 over 206 frames.
+0738.130117.075101.0033 Q K ER O S UH F S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0034, best cost 253.645 + 12474.3 = 12728 over 176 frames.
+0738.130117.075101.0034 K A M O L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0035, best cost 369.096 + 14000.6 = 14369.7 over 196 frames.
+0738.130117.075101.0035 Q A NG ER O N Y E L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0036, best cost 333.418 + 11949.4 = 12282.8 over 176 frames.
+0738.130117.075101.0036 K I T Q A K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0037, best cost 397.565 + 12667.5 = 13065 over 176 frames.
+0738.130117.075101.0037 K A U T R O Q U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0038, best cost 383.291 + 14132 = 14515.3 over 196 frames.
+0738.130117.075101.0038 Q A K I L UH Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0039, best cost 353.557 + 12330 = 12683.5 over 196 frames.
+0738.130117.075101.0039 D UH A NG O ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0041, best cost 1615.73 + 42206.1 = 43821.8 over 556 frames.
+0738.130117.075101.0041 L L K L N A L SH U O L K L G T ER A L K L N H O S U R S O S L K O L B R L CH R A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0042, best cost 957.823 + 29610.1 = 30567.9 over 396 frames.
+0738.130117.075101.0042 Q I L S K I K K O NG K O S G ER G A K K S S L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0043, best cost 422.008 + 19734.5 = 20156.5 over 256 frames.
+0738.130117.075101.0043 L K A U U Q O S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0044, best cost 733.873 + 22485.5 = 23219.4 over 326 frames.
+0738.130117.075101.0044 Q A S O L K ER A NG ER V O V L G S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0045, best cost 737.981 + 24729.2 = 25467.2 over 346 frames.
+0738.130117.075101.0045 K ER A Z S T R T ER O L JH ER S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0046, best cost 824.983 + 24583.7 = 25408.7 over 326 frames.
+0738.130117.075101.0046 K G U ER T I S K L G UH JH I T I F L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0047, best cost 670.596 + 21597.1 = 22267.7 over 316 frames.
+0738.130117.075101.0047 K M UH L ER L F ER A L CH U U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0048, best cost 1305.54 + 29634.1 = 30939.7 over 416 frames.
+0738.130117.075101.0048 L UH T R O P O S L F ER T R G L S P R G T S K UH P U I SH O L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0049, best cost 1008.17 + 26949 = 27957.2 over 356 frames.
+0738.130117.075101.0049 A Q K K L L S K A L I P I M A K U L B R I N O S K L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0050, best cost 1068.38 + 28869.5 = 29937.9 over 386 frames.
+0738.130117.075101.0050 L L B L I N L O NG G L S L S K E L F O U L K O NG T O L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0051, best cost 591.539 + 20409 = 21000.6 over 286 frames.
+0738.130117.075101.0051 L R G L U A NG G R O B R I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0052, best cost 336.481 + 16894.5 = 17231 over 246 frames.
+0738.130117.075101.0052 L B U S UH L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0053, best cost 471.453 + 13771.9 = 14243.3 over 216 frames.
+0738.130117.075101.0053 B I S K O T CH ER Q U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0054, best cost 409.104 + 12293.5 = 12702.6 over 196 frames.
+0738.130117.075101.0054 G I S Q A G D U O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0055, best cost 316.421 + 13259.5 = 13576 over 186 frames.
+0738.130117.075101.0055 L O L Y U Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0056, best cost 537.744 + 14696.4 = 15234.2 over 226 frames.
+0738.130117.075101.0056 S O P R G S Q A Q L I N G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0057, best cost 512.23 + 18681.6 = 19193.9 over 276 frames.
+0738.130117.075101.0057 Q I T L O G L P O ER A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0058, best cost 571.172 + 16108.4 = 16679.5 over 236 frames.
+0738.130117.075101.0058 S S UH B P U ER A Q D O G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0059, best cost 284.887 + 12578.8 = 12863.6 over 206 frames.
+0738.130117.075101.0059 A K I S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0060, best cost 304.194 + 12924 = 13228.2 over 196 frames.
+0738.130117.075101.0060 T O T UH Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0061, best cost 559.021 + 17546.2 = 18105.2 over 276 frames.
+0738.130117.075101.0061 K Y M E R O L I N UH Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0062, best cost 398.655 + 13401 = 13799.6 over 196 frames.
+0738.130117.075101.0062 K O ER M S I P ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0063, best cost 334.618 + 12724.5 = 13059.1 over 176 frames.
+0738.130117.075101.0063 B O U K ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0064, best cost 357.96 + 14163.2 = 14521.1 over 206 frames.
+0738.130117.075101.0064 K A U S O N G Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0065, best cost 237.096 + 11973.2 = 12210.3 over 176 frames.
+0738.130117.075101.0065 D N A Q U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0066, best cost 324.814 + 13533.4 = 13858.2 over 206 frames.
+0738.130117.075101.0066 A UH L L O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0067, best cost 381.633 + 17358.5 = 17740.1 over 236 frames.
+0738.130117.075101.0067 M O L M I L N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0068, best cost 459.152 + 14470.3 = 14929.5 over 206 frames.
+0738.130117.075101.0068 A Q U B T O B A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0069, best cost 388.914 + 16477.2 = 16866.1 over 216 frames.
+0738.130117.075101.0069 A Q O ER A NG S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0070, best cost 361.267 + 15456.8 = 15818.1 over 226 frames.
+0738.130117.075101.0070 M UH L EY N U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0071, best cost 1270.95 + 34460.2 = 35731.2 over 446 frames.
+0738.130117.075101.0071 L K A S K W A Q K UH K A Q P I S U R S K ER A S R B ER G S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0072, best cost 683.248 + 20786.5 = 21469.7 over 286 frames.
+0738.130117.075101.0072 G L U I Z R M A K U T W E R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0073, best cost 773.486 + 24303.5 = 25077 over 336 frames.
+0738.130117.075101.0073 K A SH O G T O S L S L K L S O L L G K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0074, best cost 1334.93 + 33959.7 = 35294.6 over 446 frames.
+0738.130117.075101.0074 A Q T L S UH N B I CH SH O S O T Q O L S P A M A K A A L ER UH L G K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0075, best cost 824.882 + 25498.5 = 26323.4 over 356 frames.
+0738.130117.075101.0075 K A S U W E L D U B U A K A Q U T ER E R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0076, best cost 812.612 + 21158.6 = 21971.2 over 286 frames.
+0738.130117.075101.0076 A Q G B A NG ER V B L G T L S O L L G K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0077, best cost 716.573 + 20244.8 = 20961.4 over 276 frames.
+0738.130117.075101.0077 A Q L UH L L K L JH O NG T U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0078, best cost 965.675 + 23856.9 = 24822.6 over 316 frames.
+0738.130117.075101.0078 S U Q F I T U Q S L L I P I U T ER Q O S U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0079, best cost 1159.39 + 29569.4 = 30728.8 over 386 frames.
+0738.130117.075101.0079 Q S U B U P A AO L K ER I M I P L G R SH U U T U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0080, best cost 946.675 + 26230.4 = 27177.1 over 346 frames.
+0738.130117.075101.0080 K L T R O S U B U U H O S O L G Q L JH Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0081, best cost 314.356 + 12615.9 = 12930.2 over 186 frames.
+0738.130117.075101.0081 K O B U L G Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0082, best cost 352.173 + 10900.6 = 11252.7 over 156 frames.
+0738.130117.075101.0082 K L O L L Q A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0083, best cost 379.915 + 13489.5 = 13869.4 over 196 frames.
+0738.130117.075101.0083 K Y Q A D U G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0084, best cost 428.756 + 13114.1 = 13542.8 over 186 frames.
+0738.130117.075101.0084 Q I K E T Q A K L O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0085, best cost 382.947 + 11174.6 = 11557.5 over 166 frames.
+0738.130117.075101.0085 K L O L O U Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0086, best cost 420.133 + 13244.2 = 13664.3 over 186 frames.
+0738.130117.075101.0086 A Q A B U L I D G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0087, best cost 287.229 + 12071.7 = 12358.9 over 166 frames.
+0738.130117.075101.0087 K A M A A Q I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0088, best cost 438.435 + 14380.3 = 14818.7 over 206 frames.
+0738.130117.075101.0088 K A A M B A M NG Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0089, best cost 242.44 + 11932.1 = 12174.5 over 176 frames.
+0738.130117.075101.0089 K UH K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0090, best cost 461.112 + 12541.9 = 13003 over 176 frames.
+0738.130117.075101.0090 K B I H U T D N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0091, best cost 744.736 + 19762 = 20506.8 over 266 frames.
+0738.130117.075101.0091 K I L G I L ER E T Q A O S O S S A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0092, best cost 800.338 + 20480.2 = 21280.5 over 276 frames.
+0738.130117.075101.0092 S I N B A Q UH L L S UH R A G U S K Y U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0093, best cost 582.128 + 18698.5 = 19280.6 over 256 frames.
+0738.130117.075101.0093 K U H U S M I N ER L JH ER L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0094, best cost 639.021 + 21005.1 = 21644.2 over 276 frames.
+0738.130117.075101.0094 Y L UH T Q O ER G D U R O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0095, best cost 643.05 + 18659.9 = 19303 over 256 frames.
+0738.130117.075101.0095 K A U S M I V ER L JH ER L ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0096, best cost 499.09 + 16213.4 = 16712.5 over 226 frames.
+0738.130117.075101.0096 K W A K A Z H U L R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0097, best cost 651.352 + 17347.9 = 17999.2 over 246 frames.
+0738.130117.075101.0097 K A Q T S O L K Y O A G O O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0098, best cost 748.107 + 20867.2 = 21615.3 over 306 frames.
+0738.130117.075101.0098 K A L L T L SH S I T Y O V I G A O L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0099, best cost 824.364 + 22929.6 = 23754 over 306 frames.
+0738.130117.075101.0099 S I V B A Q UH L ER O S O ER A G U S T I N G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0100, best cost 591.783 + 20209.7 = 20801.5 over 276 frames.
+0738.130117.075101.0100 K L E K A L Y O ER A Q Y A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0101, best cost 630.501 + 27562.4 = 28192.9 over 376 frames.
+0738.130117.075101.0101 A Q L UH T Q A K L A K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0103, best cost 936.88 + 46563.6 = 47500.5 over 626 frames.
+0738.130117.075101.0103 K A Q L U U Q A Q L U Q G A Q L U U K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0104, best cost 775.766 + 34927 = 35702.8 over 496 frames.
+0738.130117.075101.0104 A Q I M I R G A Q Y M I T A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0108, best cost 446.389 + 28277.1 = 28723.5 over 406 frames.
+0738.130117.075101.0108 I L A Q L L Q A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0109, best cost 777.558 + 27138.5 = 27916.1 over 376 frames.
+0738.130117.075101.0109 H A B O L G K H A B Q O L G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0110, best cost 568.866 + 29774.7 = 30343.6 over 406 frames.
+0738.130117.075101.0110 A Q U A Q Q O A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0111, best cost 744.306 + 35411.8 = 36156.1 over 526 frames.
+0738.130117.075101.0111 A Q A O B A Q U Q A G B A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0112, best cost 816.193 + 29844.5 = 30660.7 over 446 frames.
+0738.130117.075101.0112 G A Q B I JH I D R O B T Y A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0113, best cost 588.612 + 32456.7 = 33045.3 over 476 frames.
+0738.130117.075101.0113 B U L A Q U D B U L N A Q U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0114, best cost 514.75 + 18397.8 = 18912.6 over 266 frames.
+0738.130117.075101.0114 A Q D JH O A NG ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0116, best cost 393.987 + 16502.8 = 16896.7 over 236 frames.
+0738.130117.075101.0116 G L K T U A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0118, best cost 400.208 + 13546.5 = 13946.7 over 196 frames.
+0738.130117.075101.0118 K L M Y U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0119, best cost 540.386 + 16880.2 = 17420.6 over 226 frames.
+0738.130117.075101.0119 A Q JH A M Y S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0120, best cost 371.159 + 15851.9 = 16223.1 over 236 frames.
+0738.130117.075101.0120 T L U O ER A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0121, best cost 441.283 + 15711.8 = 16153 over 216 frames.
+0738.130117.075101.0121 A Q T L ER I G S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0122, best cost 410.465 + 13888.9 = 14299.4 over 186 frames.
+0738.130117.075101.0122 A Q K I N K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0123, best cost 364.376 + 16377.3 = 16741.7 over 236 frames.
+0738.130117.075101.0123 D R O N L Y E L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0124, best cost 445.484 + 17086.3 = 17531.8 over 236 frames.
+0738.130117.075101.0124 A Q L JH I A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0125, best cost 520.973 + 15822.9 = 16343.9 over 226 frames.
+0738.130117.075101.0125 A Q L L Z R O B S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0126, best cost 501.055 + 16895.9 = 17396.9 over 236 frames.
+0738.130117.075101.0126 K M UH V ER G K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0127, best cost 382.733 + 15285.7 = 15668.5 over 216 frames.
+0738.130117.075101.0127 JH U U S A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0128, best cost 579.485 + 17920.1 = 18499.6 over 246 frames.
+0738.130117.075101.0128 K UH T Q O S T R M Y A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0129, best cost 346.481 + 13233.1 = 13579.6 over 186 frames.
+0738.130117.075101.0129 U R L UH L ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0130, best cost 412.023 + 14232 = 14644 over 196 frames.
+0738.130117.075101.0130 L UH V ER G K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0131, best cost 484.703 + 15024.6 = 15509.3 over 216 frames.
+0738.130117.075101.0131 JH O L UH F UH L G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0132, best cost 490.566 + 15889.8 = 16380.4 over 216 frames.
+0738.130117.075101.0132 G UH T Q A L S R A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0133, best cost 336.04 + 14715.4 = 15051.4 over 206 frames.
+0738.130117.075101.0133 Q O L S U R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0134, best cost 456.907 + 15249.2 = 15706.1 over 216 frames.
+0738.130117.075101.0134 K JH U S K T U L N I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0135, best cost 288.362 + 13612.5 = 13900.9 over 196 frames.
+0738.130117.075101.0135 K A K ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0136, best cost 811.62 + 28285.9 = 29097.5 over 386 frames.
+0738.130117.075101.0136 A G P A Q T L O K L M A K U L O G W L O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0137, best cost 643.217 + 23170.8 = 23814 over 316 frames.
+0738.130117.075101.0137 I K ER A K U L O G Q A Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0138, best cost 589.036 + 21196.3 = 21785.3 over 296 frames.
+0738.130117.075101.0138 L I P R A K U L O G I S UH 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0139, best cost 919.453 + 23351.5 = 24270.9 over 336 frames.
+0738.130117.075101.0139 Q L K ER A K U L O G D U A Q K O N D L I S UH 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0140, best cost 488.127 + 17963.5 = 18451.6 over 266 frames.
+0738.130117.075101.0140 Q I K E T O ER G P A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0141, best cost 627.542 + 15519.5 = 16147 over 216 frames.
+0738.130117.075101.0141 A Q L K UH T Q U L U Q K UH 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0142, best cost 652.076 + 19779 = 20431.1 over 276 frames.
+0738.130117.075101.0142 G Y K ER A Q T U L O B T O O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0143, best cost 1028.22 + 23576.3 = 24604.5 over 336 frames.
+0738.130117.075101.0143 K ER K E T UH T L O K O V A Q U L U G T L T O NG Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0144, best cost 1041.72 + 22900.4 = 23942.1 over 316 frames.
+0738.130117.075101.0144 ER K E T UH T L O K O V M A K U L U G D O UH A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0145, best cost 1007.85 + 23967.7 = 24975.5 over 336 frames.
+0738.130117.075101.0145 L K E T UH T L O K O V M A T Q U L U B L S Q O N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0146, best cost 646.334 + 15962.4 = 16608.8 over 216 frames.
+0738.130117.075101.0146 A Q U L G P A Q U R B O O K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0147, best cost 377.97 + 11431.3 = 11809.2 over 146 frames.
+0738.130117.075101.0147 A Q A H O JH Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0148, best cost 619.795 + 18168.6 = 18788.4 over 236 frames.
+0738.130117.075101.0148 A Q G L O S O L G T U S JH 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0149, best cost 389.887 + 15674.3 = 16064.2 over 206 frames.
+0738.130117.075101.0149 K I N G L T ER A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0150, best cost 265.701 + 12732.7 = 12998.4 over 186 frames.
+0738.130117.075101.0150 D L P A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0151, best cost 479.008 + 14703.3 = 15182.3 over 196 frames.
+0738.130117.075101.0151 S U M G U P U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0152, best cost 351.428 + 14722.7 = 15074.1 over 196 frames.
+0738.130117.075101.0152 A H U JH A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0153, best cost 415.976 + 14136.4 = 14552.4 over 196 frames.
+0738.130117.075101.0153 K O L T UH B O O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0154, best cost 593.614 + 16858.3 = 17451.9 over 246 frames.
+0738.130117.075101.0154 SH U M H O T B Q A D L A Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0155, best cost 536.046 + 16270.5 = 16806.5 over 216 frames.
+0738.130117.075101.0155 A Q D U M I N G U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0156, best cost 432.667 + 15473.9 = 15906.6 over 206 frames.
+0738.130117.075101.0156 T O G S U K W A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0157, best cost 523.238 + 16040.1 = 16563.3 over 226 frames.
+0738.130117.075101.0157 S R G Y E V R A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0158, best cost 462.481 + 14075.2 = 14537.7 over 196 frames.
+0738.130117.075101.0158 G L B I L N I D ER L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0159, best cost 427.173 + 13230.2 = 13657.4 over 176 frames.
+0738.130117.075101.0159 A Q B W A K S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0160, best cost 368.979 + 15032.4 = 15401.4 over 216 frames.
+0738.130117.075101.0160 K A A G D A K Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0161, best cost 319.757 + 15971.6 = 16291.4 over 226 frames.
+0738.130117.075101.0161 L S O A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0162, best cost 453.861 + 14876.1 = 15330 over 216 frames.
+0738.130117.075101.0162 L A G T ER A Q O L G Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0163, best cost 463.636 + 15650.7 = 16114.3 over 216 frames.
+0738.130117.075101.0163 K I D JH I H U Q G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0164, best cost 653.957 + 23809.8 = 24463.8 over 316 frames.
+0738.130117.075101.0164 A K L O K O N A K U L U Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0165, best cost 632.887 + 18377.1 = 19010 over 256 frames.
+0738.130117.075101.0165 T O B T O B O V UH A G N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0166, best cost 488.677 + 17376.1 = 17864.8 over 226 frames.
+0738.130117.075101.0166 O ER V ER Q A B U T A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0167, best cost 445.836 + 15852.7 = 16298.6 over 236 frames.
+0738.130117.075101.0167 Q G Q A Q Y O N NG K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0168, best cost 452.992 + 19036.5 = 19489.5 over 276 frames.
+0738.130117.075101.0168 A P U S ER A NG K K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0169, best cost 342.158 + 17679.1 = 18021.2 over 236 frames.
+0738.130117.075101.0169 D R O B ER L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0170, best cost 526.371 + 19257.4 = 19783.8 over 266 frames.
+0738.130117.075101.0170 Q O ER O S OW A Q O S A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0171, best cost 486.229 + 20704.4 = 21190.7 over 266 frames.
+0738.130117.075101.0171 K S Q A P A UH B U T L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0172, best cost 614.744 + 20442.3 = 21057 over 276 frames.
+0738.130117.075101.0172 B O S K Y M S O L M A Q U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0173, best cost 558.256 + 19061 = 19619.3 over 256 frames.
+0738.130117.075101.0173 K D Q U L A U A NG K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0174, best cost 428.063 + 15906.6 = 16334.6 over 226 frames.
+0738.130117.075101.0174 A M I N Y UH A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0175, best cost 424.299 + 17712.4 = 18136.7 over 246 frames.
+0738.130117.075101.0175 A L G K Y A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0176, best cost 510.274 + 17996.9 = 18507.2 over 256 frames.
+0738.130117.075101.0176 M B A Q L E M O O U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0177, best cost 416.599 + 16632.9 = 17049.5 over 226 frames.
+0738.130117.075101.0177 K A M Y UH L G L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0178, best cost 542.566 + 21674.7 = 22217.3 over 306 frames.
+0738.130117.075101.0178 M A G U L O B ER L Q O U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0179, best cost 499.359 + 20783.3 = 21282.6 over 276 frames.
+0738.130117.075101.0179 K G U L U G A U Q O L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0180, best cost 291.918 + 17020.2 = 17312.1 over 226 frames.
+0738.130117.075101.0180 Q A K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0181, best cost 430.139 + 15166.9 = 15597 over 216 frames.
+0738.130117.075101.0181 B A S O L M A G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0182, best cost 450.054 + 16574.5 = 17024.6 over 216 frames.
+0738.130117.075101.0182 A Q U L U S S A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0183, best cost 922.531 + 27190.6 = 28113.1 over 376 frames.
+0738.130117.075101.0183 M O L G A ER M A P A Q K A M Y AW S W E M NY O L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0184, best cost 755.429 + 23951.5 = 24706.9 over 316 frames.
+0738.130117.075101.0184 S O T ER G A M U W A G R O P U Y U Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0185, best cost 736.185 + 25800.9 = 26537 over 366 frames.
+0738.130117.075101.0185 L G E K ER A NG O G O ER I B U G A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0186, best cost 482.156 + 17363.2 = 17845.4 over 246 frames.
+0738.130117.075101.0186 A Q A M A NG O L ER M U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0187, best cost 732.917 + 20398.2 = 21131.1 over 276 frames.
+0738.130117.075101.0187 G U S K O N N A NG W A M A G K A Q U U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0188, best cost 563.177 + 20029.5 = 20592.6 over 266 frames.
+0738.130117.075101.0188 L R G O G N A Q O ER G K A Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0190, best cost 720.258 + 25583.2 = 26303.4 over 336 frames.
+0738.130117.075101.0190 S U D E M G R O ER O P U L O Q L L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0191, best cost 754.519 + 25678.8 = 26433.4 over 346 frames.
+0738.130117.075101.0191 L L G Y U R O O G O ER I D B U G L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0192, best cost 1033.82 + 26394.9 = 27428.7 over 356 frames.
+0738.130117.075101.0192 A Q B A NG G A A L Y O NG Q O D L A W O L S ER M NY O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0193, best cost 725.028 + 22703.4 = 23428.4 over 286 frames.
+0738.130117.075101.0193 L A Q A U A NG G A Q U ER G K A Q U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0194, best cost 987.388 + 27066 = 28053.4 over 366 frames.
+0738.130117.075101.0194 L A Q G L G O ER L K Q K UH M Y O S U R E M Y O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0195, best cost 572.528 + 21732.9 = 22305.4 over 286 frames.
+0738.130117.075101.0195 L ER M A I D U R G B L U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0196, best cost 502.349 + 19592.8 = 20095.1 over 256 frames.
+0738.130117.075101.0196 O ER A NG G A K A D G A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0197, best cost 704.594 + 24538 = 25242.6 over 326 frames.
+0738.130117.075101.0197 L D ER L G R N A L S A NG B U A K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0198, best cost 844.499 + 24126.9 = 24971.4 over 316 frames.
+0738.130117.075101.0198 K G D R E R G R U O R D R O P U Q L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0199, best cost 896.908 + 26116.2 = 27013.1 over 336 frames.
+0738.130117.075101.0199 A G T ER L N A Q E M I T O L R G P O ER L L Q O G L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0200, best cost 937.765 + 27461.4 = 28399.2 over 366 frames.
+0738.130117.075101.0200 L U L I P A ER M Q K O B A M Y O S ER M Y U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0201, best cost 506.157 + 14099.3 = 14605.5 over 206 frames.
+0738.130117.075101.0201 B A Q L Y U M O ER G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0202, best cost 1879.98 + 44828.3 = 46708.3 over 606 frames.
+0738.130117.075101.0202 O ER L B U L E V O ER A Q T U L U P A NG G U M H O S O B ER O N Q UH V ER O S ER U S O B R G A ER A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0203, best cost 2003.08 + 47382.2 = 49385.3 over 646 frames.
+0738.130117.075101.0203 M A G B R O L G S O E S A K A M I Z Q U S UH M AO ER A B U O L G O ER L P ER S UH L G L S U U L G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0204, best cost 1905.42 + 44357.1 = 46262.5 over 586 frames.
+0738.130117.075101.0204 M O ER G P A NG O ER L T O K O B O ER A Q O G T O A K ER A Q P R M O G L L A B O A S UH M U A Q O B R A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0205, best cost 1861.4 + 40936.1 = 42797.5 over 556 frames.
+0738.130117.075101.0205 Q O B R UH A NG UH B A K O Q NG UH T ER G B A Q T U Q K O S O G U L D S O NG K Q A B R O N D E N A NG N A L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0206, best cost 1890.71 + 43423.6 = 45314.3 over 606 frames.
+0738.130117.075101.0206 K O S U L U T S O Q O B R A G D U O L D R O O ER Q O G Q O B O ER L T O M U O Q A N NY O N L U G A Q UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0207, best cost 4469.97 + 91879.8 = 96349.8 over 1226 frames.
+0738.130117.075101.0207 L M A G K O U K ER D CH UH L B ER L A A K O ER T L S UH L ER V N A L G L K W A O S ER S O NG B O ER A L L S Q S S O G U L N A NG O T ER G P U O L A A NG I D B A M A K L K O V ER G A K P U L G S U P O B ER G S O Q S T O S O B O NG UH T ER G P W O A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0208, best cost 2410.43 + 56449 = 58859.5 over 766 frames.
+0738.130117.075101.0208 L S U L N A Q K UH L B R G B A Q T U Q S O B R O B L G S U A Q O B O L L W A K O NG G D I M A K ER G Q A UH M A M A G A Q K O S U U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0209, best cost 2209.37 + 55635.8 = 57845.1 over 736 frames.
+0738.130117.075101.0209 G A Q U K L B A Q G N K U O G U Q G A M O ER A Q K O ER Y O L D A U R M A G ER S K A Q G UH M U O ER A Q U L G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0210, best cost 2178.76 + 50729.1 = 52907.8 over 666 frames.
+0738.130117.075101.0210 A Q L S T R ER A K ER O S UH Q O S ER K O B A NG ER U M Y U ER G Y O N A Q T U B A M B A M U L M Y O P U B ER M A A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0211, best cost 3176.75 + 73926.4 = 77103.2 over 946 frames.
+0738.130117.075101.0211 B A Z S I K O N U JH I L UH L S UH Q P ER A K A G Y N UH D L O Q K O ER G S O L B A W O G A O B O ER Q K UH D L O K S O O ER A NG L A NG K O ER R T ER S ER S Q A K G B U K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0212, best cost 2003.64 + 48838.3 = 50841.9 over 666 frames.
+0738.130117.075101.0212 K ER A K A K O ER D E R O S O G U Q S U Q E M O NG ER Q U K A Q Q O ER A NG K O V ER L G A Q O S O M P I B R I K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0213, best cost 2167.81 + 48940.8 = 51108.6 over 656 frames.
+0738.130117.075101.0213 A Q G L U G Y O L B N G B A K T O Q S O L ER M O SH O L K O B A Q P A S O L G R G L G UH A NG B O ER L S O L D L G A NG G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0214, best cost 2984.86 + 68177.4 = 71162.2 over 906 frames.
+0738.130117.075101.0214 K U T L T O O A K B ER S U A K S W A U M A Q Y U T ER D UH L G U L U K U S O NG Q T L O B A Q O ER A Q O B R A K B ER V A L L M S O B R O G S U I K S O ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0215, best cost 4576.25 + 93317.4 = 97893.7 over 1226 frames.
+0738.130117.075101.0215 B O S S O ER A Q O B ER M S O R O V ER M A K A Q O P U T S U I SH U O N D G O Q K W A NG G A K S O K O ER S UH T ER A NG T M A O S U ER A Q T S UH E S UH L E T Q U T R S O ER E S O ER G ER L G A Q O B O L L U Q S O NG K O G A L Y U ER A Q U B R I N NY O L G L L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0216, best cost 3177.95 + 73710 = 76888 over 986 frames.
+0738.130117.075101.0216 Q A NG I B A Q G A Q O S G G O ER A G D U ER A Q O ER A Q K O ER A L L A P ER A K L T R O T O L G T ER A B E T O L E G D R O S U Q S S I L A A K S O ER A M A G T ER G R L K E L D UH L Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0217, best cost 3705.3 + 92820 = 96525.3 over 1206 frames.
+0738.130117.075101.0217 K O S L R D U A Q O B U L UH L A Q M A S O A K O K O L S UH K O S O L ER K S UH M U O G A NG I K L UH B R O P O ER A S S I M Y A ER Q UH T L G S UH L Y U O ER S UH B A Q Q O L G P A S L UH U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0219, best cost 1618.6 + 45194.7 = 46813.3 over 596 frames.
+0738.130117.075101.0219 L U B O S ER A S UH L Q UH U Q K V M A T ER I L O S U A Q O S A G P O ER A Q O G N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0220, best cost 2484.92 + 62672.9 = 65157.8 over 836 frames.
+0738.130117.075101.0220 L G I U K O N L O L ER M A A NG O S O B O L Y U O B U Q U Q A K S UH B R O NG B O A M A UH L H O K O B O L O Q O Q L G Q A Q U N N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0221, best cost 3264.06 + 77748.4 = 81012.5 over 1046 frames.
+0738.130117.075101.0221 K O S U G L UH Q K U L M A K UH D G S UH M B A K O Q U K O G B A G Q O K A G W A G D O G A NG A G Y U H Y U S O ER A Q K A Q U K O G S UH V O S UH M O S UH M O A P O ER Q A W L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0222, best cost 3827.8 + 85129.5 = 88957.3 over 1126 frames.
+0738.130117.075101.0222 K O S L M I N D U A Q O B U L A A K L U R O S UH A K O P O Q N S O K A S O A NG ER S O W O B R O L Y U L G A NG K O G A Q O ER L S Q M E G N A Q Y O ER A K A G S A NG K O ER U O ER I S O ER A Q K O ER G T O S L A A U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0223, best cost 849.637 + 23944.4 = 24794 over 346 frames.
+0738.130117.075101.0223 K M A L ER G A Q E U P A G P O ER A M Y O Q U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0224, best cost 345.161 + 13200.3 = 13545.4 over 186 frames.
+0738.130117.075101.0224 S R O A M A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0226, best cost 703.85 + 26504 = 27207.8 over 366 frames.
+0738.130117.075101.0226 L UH A M O G I D L S U A M A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0227, best cost 1225.99 + 34649.9 = 35875.9 over 446 frames.
+0738.130117.075101.0227 K K L S O Q A K ER A S R I N K Q O S E M A P A A G A S U A M A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0228, best cost 463.327 + 17023.1 = 17486.4 over 246 frames.
+0738.130117.075101.0228 A S ER E N S O N U A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0229, best cost 435.979 + 14181.9 = 14617.9 over 216 frames.
+0738.130117.075101.0229 B A NG ER Q A D L A Q U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0230, best cost 689.098 + 19520.3 = 20209.4 over 276 frames.
+0738.130117.075101.0230 L L O ER O S U B O M O NG K UH V Y 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0231, best cost 408.099 + 17627.2 = 18035.3 over 236 frames.
+0738.130117.075101.0231 S ER O N A L M E K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0232, best cost 311.031 + 14317.7 = 14628.7 over 206 frames.
+0738.130117.075101.0232 S O A K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0233, best cost 939.27 + 22891.8 = 23831 over 316 frames.
+0738.130117.075101.0233 M A L L P A Q E V ER O P UH O ER V L A W O K M 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0234, best cost 757.25 + 20817.6 = 21574.8 over 296 frames.
+0738.130117.075101.0234 L ER G O ER M Q O P O ER A Q O ER A Q U Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0235, best cost 907.027 + 26334.2 = 27241.2 over 356 frames.
+0738.130117.075101.0235 P O S ER O ER M E N NY O Q A K U R S O L Y U L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0236, best cost 1115.2 + 26554.5 = 27669.8 over 366 frames.
+0738.130117.075101.0236 A Q U B Y U O A Q U NY O B U B U NG B T U Q I D G L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0237, best cost 428.77 + 16504.7 = 16933.5 over 226 frames.
+0738.130117.075101.0237 K A Q L UH M G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0238, best cost 558.614 + 16885.1 = 17443.7 over 236 frames.
+0738.130117.075101.0238 L D K O B S O L U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0239, best cost 912.587 + 23014.9 = 23927.5 over 316 frames.
+0738.130117.075101.0239 B L G I SH U L M A L G R O S O L G Y O S SH UH L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0240, best cost 1445.52 + 35881.6 = 37327.1 over 496 frames.
+0738.130117.075101.0240 B O L I P A Q E U K O S Q A K V ER O B I M A NG W A Q U ER A B O G O NG G U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0241, best cost 1223.14 + 35281.2 = 36504.4 over 476 frames.
+0738.130117.075101.0241 K G U K T R O S Q JH E JH U M I V UH L L A Q L I B L L A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0242, best cost 973.154 + 23672 = 24645.2 over 346 frames.
+0738.130117.075101.0242 K O ER O NG G I M A Y M U ER M A E K ER S O B ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0243, best cost 805.196 + 22814.7 = 23619.9 over 316 frames.
+0738.130117.075101.0243 L JH I L O N B R B L S R O L G R E G L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0244, best cost 1183.5 + 30475.6 = 31659.1 over 406 frames.
+0738.130117.075101.0244 L D U K T R O S G L JH E M I B ER Q O A K L M I B L L A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0245, best cost 1321.42 + 33966.1 = 35287.5 over 456 frames.
+0738.130117.075101.0245 K L U K L G T O K O B O ER O S O W A M I L N A Q K O S O B U L D L U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0246, best cost 1276.67 + 29928.4 = 31205.1 over 416 frames.
+0738.130117.075101.0246 K M A K O K O ER U B ER O S I F O ER L S I S K O Q U M A K A L V Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0247, best cost 1036.33 + 26871.8 = 27908.1 over 366 frames.
+0738.130117.075101.0247 K O ER R O NG D E W I M U R M A E K ER S O B ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0248, best cost 693.547 + 20065.6 = 20759.1 over 296 frames.
+0738.130117.075101.0248 Q U B U Q U T B R O S E M I SH ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0249, best cost 1031.84 + 29361.1 = 30393 over 416 frames.
+0738.130117.075101.0249 Q G U S K O O ER A M A G K A Q U R O M O G K O O ER I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0250, best cost 521.768 + 17623.2 = 18144.9 over 246 frames.
+0738.130117.075101.0250 K A Q O ER G R O S O Q A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0251, best cost 938.342 + 27464 = 28402.4 over 366 frames.
+0738.130117.075101.0251 A M I S ER O L R B R O S O B A G R A Q U Q L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0252, best cost 645.664 + 20470.9 = 21116.6 over 276 frames.
+0738.130117.075101.0252 L S U R B ER V ER L S O A Q L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0253, best cost 1077.97 + 28754.7 = 29832.6 over 416 frames.
+0738.130117.075101.0253 L L I P ER I N O B O ER O S I N JH ER M S U ER K ER A M A U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0254, best cost 874.873 + 26461.9 = 27336.8 over 366 frames.
+0738.130117.075101.0254 K S U ER E K R G R A Q O S O M P A Q U Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0255, best cost 811.691 + 24518.8 = 25330.5 over 336 frames.
+0738.130117.075101.0255 S L M H O U B A Q O S UH B A G K A Q U Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0256, best cost 6400.44 + 136129 = 142529 over 1866 frames.
+0738.130117.075101.0256 K A UH L G T O ER A NG ER G D E M A L D UH M O S R O T O L K O P A Q O ER L S O L M A G D U I N O NG Q O NG ER Q U B U T K Q U T Q K K ER G O ER A M B Y U T U U K A K O ER O L I K ER A G G S R O M O L B A M U Q U P U L K ER O O G A Q O K O B O A G Y M I P R A L ER L S O M A NG K O S R B O V O NG G I L O L B R O S O NG M O L M O G L U L E G L K O S K ER A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0257, best cost 3947.01 + 78861 = 82808 over 1056 frames.
+0738.130117.075101.0257 L L I L L T U B L U Q S O B R O NG ER M I E R G Y U ER A Q T O N G Q U S Q K R B O ER A K U L S U T O ER B R A Q U M S U R D I D S Q A Q L K ER A K A G ER M A W O Q A L G E G B I V ER O B U G A G L G Y U T UH B U Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0258, best cost 2275.53 + 54517.8 = 56793.4 over 766 frames.
+0738.130117.075101.0258 L K L L U M O Q A K ER G A S ER A M O L D L S Q A G B R N I N K O B A NG G B ER O L M A L M S Q A Q T O N G U L D E M U L G Q O S L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0259, best cost 2902.2 + 64108.4 = 67010.6 over 886 frames.
+0738.130117.075101.0259 K W ER A G D E D K U N D I L K U L O S K E T O ER D U ER L N B O R O S O A K T O N G O ER G A Q M I M Y U B U A Q L R B R B O A G K O G T O M O L K ER D N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0260, best cost 6647.36 + 148731 = 155378 over 1976 frames.
+0738.130117.075101.0260 Q A U O D UH L U L U D M A A S O L M A D O B UH L L U A S O L L O L G R G A Q U T T U L B L K O B U L S O ER A K A P O ER B A Q L S UH B A Q A Q O L G I M Y O U S O A NG G A Q T Y M G A S S K ER A NG K UH Q U L U Q K O ER O S U R D U I M D UH K ER E T Y N G N A Q NG ER L S O M A A Q T G Y U P ER A S UH T O NG K O S R G K A S R I N NG A L R G A B O T Y Q A G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0261, best cost 7001.92 + 146507 = 153509 over 2036 frames.
+0738.130117.075101.0261 A G S O B O ER A Y B U O NG Q U L U G Y L A P A W E M S O L K O O NG U Q U T W A M I L G L G UH B K O NG R D E D L U Q NG A L L A Q P I SH U R O S ER G Y L AW L Y O M O T ER D S U O B O Q K K O ER L G A L Y O M U K O S O G UH M O UH M U Q K UH L NG I N O M U O L N L I N A P A O L Y UH L G ER D E D K L A U NG S S R O NG T ER S O A Q K UH M O T U B K O O ER D L ER U UH T ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0262, best cost 7019.08 + 148231 = 155250 over 1996 frames.
+0738.130117.075101.0262 A Q A Q G N M A A M B U L O L U ER G K U O M O B U I B U L S U R S ER I M G A M A K ER I T O S O L L A B K U R B K S ER A NG B L M A O Q P A Q K ER O B R O L D UH K U T O G M O R O Q S U K O O A G A ER O T R O B U R G A M I M A K R I P A Q O P O Q L G A M I D S O S K ER A T L U Q K O K A G K O S L I T T O G M UH Q UH A M I T L UH Q A NG B O B U ER Y U S O P A Q T O S A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0263, best cost 4823.21 + 91349.5 = 96172.7 over 1276 frames.
+0738.130117.075101.0263 A Q U ER M A A M U R G E R O S O G L I D L S O ER T ER S ER Q O M O L ER O A M O ER A B R G CH L G T O NG D K ER G D I L A G D U M Y U O L S O A M U L K R G S L K ER A M A G K A A G T L D ER G T O S O L M A G B ER G U L M A A NG A B U A Q G S O N Q K K L M A UH A G L A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0264, best cost 7924.04 + 159226 = 167150 over 2216 frames.
+0738.130117.075101.0264 L D U S Q M I T ER O D R I R D U U G B L L U O ER M S O M U A Q M O L ER Q O B U UH B L N R O B K O G O ER A NG G N A Q K L G O ER B P I G A R EY ER EY M I M A M A A L G B O NG T S O N G O G G N A Q L UH T U G U T S U ER I B U R O N O L L U Y O N D L S O A M A K O K O NG OY L L U G ER L Q U Q K O N G G U D U L UH L S UH B O M O T S O A G U UH N B O S UH NG K U Q O G K S O K O B U Q U S O L S O NG B U K O ER D L G L G B O B R G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0265, best cost 4157.04 + 86547.1 = 90704.2 over 1206 frames.
+0738.130117.075101.0265 K L G L L U K O ER L K O NG Y O B ER G B R E D K K UH N L B P O ER UH L U Q U S O M A G K O T ER D K G S UH B A Q G E G UH T ER G S L Y O S UH K A K I D Q U T A Q A A NG NG A A Q U A Q A G Y U B I S U K O N M A G L K Q A P I G K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0266, best cost 1653.79 + 34088.8 = 35742.6 over 476 frames.
+0738.130117.075101.0266 A Q K O N G I N L P O NG B ER L JH UH S U L D U Q K O P U L L S R E S S K O ER L T L O A Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0267, best cost 1771.26 + 44481.5 = 46252.8 over 626 frames.
+0738.130117.075101.0267 K A Q E D B O ER L U L G G O ER L U T K A Q O O L R Y A Q O L N B O ER L U K S U P U T ER Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0268, best cost 4510.16 + 86816.1 = 91326.3 over 1186 frames.
+0738.130117.075101.0268 A Q D R A M I K U L UH Q O ER L K O O L S O S U R I L O S O A NG ER UH B A Q U K D U ER L K O SH O ER G I M A UH Q U S K R G L S Q M O K L JH U R O S U JH D R B ER T ER O L D U R D Y U P U L B U S ER A M A G D U Q O S O L Y U ER A L M AY K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0270, best cost 1098.13 + 28201.8 = 29299.9 over 376 frames.
+0738.130117.075101.0270 K A Q M A G L O P U K O S W A M U L K O V G R A G A Q U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0271, best cost 2121.98 + 51227.1 = 53349 over 676 frames.
+0738.130117.075101.0271 Q Y M I M A A Q A G T Y U U S UH T Q U L G P O ER O S O SH O ER G P O ER O S UH K E M K O B ER Y U U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0272, best cost 4319.33 + 85842 = 90161.3 over 1136 frames.
+0738.130117.075101.0272 A Q K UH N R G E D UH M O L S K L K T O NG Q O B O B K O M O N S UH L I N A K A Q U L ER O S U L JH L ER G K O ER O S UH B O B O ER I LY UH L ER Q O G G U K O Q S UH M A E JH I S O G K B ER G R A B L UH G U S K O O ER G K O B A Q P A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0274, best cost 5273.98 + 118280 = 123554 over 1586 frames.
+0738.130117.075101.0274 Q K U Q O T ER A K A S L T L ER L T O B ER M A P A Q I N H U T Y U W A M I CH M O S O M O NG D U K T O L A T R G P A Q U T W A Q T ER S O K Q U L U Y U A K L ER L P U L K UH T ER A G L T O L L S O ER V UH L S U A Q O S D U U R K S K O ER L H O ER D E K O B Y U N A L N A A K U ER A K A B U H A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0275, best cost 3285.88 + 77988.9 = 81274.8 over 1026 frames.
+0738.130117.075101.0275 A Q M AO U Q A G Q A K W A R B R O S UH N L S ER A K U O B ER V A Q K O B A Q P A K G I L A Q K UH T ER A K U Q S O M A ER G ER V G R G L E M A G K L G U L S U Q O K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0276, best cost 2485.7 + 58577.2 = 61062.9 over 826 frames.
+0738.130117.075101.0276 L U Q S UH A L L K B O ER M A O Q A P A O B K O O L M O N ER M A G A M B U ER A M A V ER M I T ER G L ER M I JH U T ER D I P U S W O L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0277, best cost 3352.66 + 74811 = 78163.7 over 1046 frames.
+0738.130117.075101.0277 K UH L T O NG G U A F ER K SH O N L NG A I M E K ER G K ER Q O B O N A ER A M A K E T O S O M O Q A K ER G A Q U R O D S O NG Q O B O S K E T B U L K ER L K Q U L T L L K L G R O L M A L Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0278, best cost 4191.33 + 88308 = 92499.3 over 1236 frames.
+0738.130117.075101.0278 K A U W A S ER G K U L O O Q O N D ER O B O ER L L S G S UH M Q T L U M I D O S U A Q U Q O S S A Q Q O Q U B L G W R O N G A Q K A Q K O O G N A Q O S U O B R B R O T CH U Q S O M O S U R T D Q A G N S UH T O N A P A Q L L K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0279, best cost 2586.51 + 57648.3 = 60234.8 over 796 frames.
+0738.130117.075101.0279 K L P U L U K A Q U S K O NG G I T D E K U L G A L I L P U L S O Q O L E V H O ER I L H A L K O ER D L U B R A K U R G L L N A Q A Q Q O M A S O A K ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0280, best cost 3145.93 + 72234.1 = 75380.1 over 976 frames.
+0738.130117.075101.0280 B A Q Y O Q A G Q A K R N T W E P R A S O N NG O S M A A K O NG Q O ER A K A B W A Q A Q D E R A K A K ER A K O S O NG ER D ER G N D U UH K A K ER Q O L G U R S O Q U Q U K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0281, best cost 1639.97 + 44766.1 = 46406.1 over 636 frames.
+0738.130117.075101.0281 K O P R O B ER L UH L K U L ER O Q K U L L A Q O M O Q O B U L O NG A UH M E N S O L G I A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0282, best cost 1446.62 + 36398.7 = 37845.3 over 536 frames.
+0738.130117.075101.0282 G U O L G O NG U M A L M O L L UH N B U R N A P Y U O M A G L M E ER L P S T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0283, best cost 6703.01 + 142177 = 148880 over 1936 frames.
+0738.130117.075101.0283 K L R U K U Q U B ER ER O S O NG B A Q O L U L G A Q D L S UH L Y U ER L G B R M A E S T S I T L L K U L CH U R G ER SH U L S K UH N S L L G A L K O ER O ER G A G S UH B R O V L A Q L M K A Q A Q U NG B A Q K L K W A G A O L S D Q A K S O W A M O NG U M A K A G B A M B O N NG I S D Q A K S U D ER V O S T W A L L O ER A NG G A R I F ER S B O Q O L U L G S R E M I N K ER A M A A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0284, best cost 8808.56 + 178346 = 187154 over 2406 frames.
+0738.130117.075101.0284 K M O ER G A Q T L I N S O F UH L T O Q S U M K L E L G L S O N ER G L S O L F ER G A B O Q O K O S UH P A K A A L G S A P A M P A NG U M A O Q A G Y UH T O ER G L S UH L G I D B O ER Q U T ER G K S S L I M B A Q O N UH L B I N G O ER I N O M S O M A NG A G B I T UH M I N N A Q K L G I N B R O M O B R O S O P R Q O S O L B ER M A ER M I SH O L G S A NG K UH V ER L S O V ER T O L ER M A ER Q O F I N S S L Y U K U S U M Q A B O L W A S O NG K O O ER L M H I N U B A NG ER G L K ER G N I L O G S L G A U A M A A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0285, best cost 6566.8 + 133455 = 140022 over 1816 frames.
+0738.130117.075101.0285 K UH L U K U ER V O B ER O S UH B U K U U L D A A L I Z A K A ER L ER L B ER L S K S I T Y U ER L L K U JH U R B R SH R S K Q O S U R A G P O ER G T O ER G S UH M A O Q A G A B A L G R O B P A W O M A K A G UH L S D Q A K S UH L O A M Q O NG W A Q K G B O L Y E S D UH L S O M B ER M U K W A L G B O ER A NG G A R I S F B U K O ER L D T S I M I N K O R A M A U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0288, best cost 7872.57 + 182435 = 190308 over 2476 frames.
+0738.130117.075101.0288 Q O M A NG U Q O B G S S ER T R L N R M S U R I S O S A NG K O ER A L Y G Y U T O D R A Q G R A Q I D U U L M A ER G A M A K A K A A G G L K I D ER L U G U U S W A G R O K L L T S UH L G L L S Q M CH U R S ER S T O V JH E S UH L I E S A Q A G O N G M A S UH L M A ER D Q A G L K L B O T O D UH L S O B A K A M A O N ER G L K O B Y E G A Q A M A A Q U B L ER M A A Q T L G U ER Q UH O ER V O Q ER O B R A M A S O N JH E S O L Q O S A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0289, best cost 6458.16 + 136985 = 143444 over 1936 frames.
+0738.130117.075101.0289 K K S I L G U T O U L G S L L I N N A Q NG V I P O ER T L K O G L E D U ER L G L K ER O L M E G D U R I R A K K ER G I N G O U K O D G O ER W A K P U S UH L U Q K O M U L U L L U K S U P W A G S O NG B U Q M S U U Q T L S I M A O S O M Q O G O ER L G B O ER G A A M H U NG O L B S UH B W A H O K O N S O L U ER A G A Q O B U S O ER V O Q M O Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0291, best cost 5714.14 + 126618 = 132332 over 1736 frames.
+0738.130117.075101.0291 A Q S O S R L S O L L S S Q K O B R O B ER L D R S O A K U K S U Q U ER A NG G L T R L T G L ER I K L G O G G U UH U Q O K O ER Q O M A UH A K UH L A Q O S UH L G R B R I T Y U ER G K UH P ER D Q A G D U Q S S I N L K I T ER S L S A M A D ER E D O L S W A NG S U R G N CH U W L G R O T U Q E G A Q S S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0293, best cost 9415.72 + 199251 = 208667 over 2736 frames.
+0738.130117.075101.0293 K A UH T O B R O Q U K O D S S A NG K O ER A CH A Q G L G S U G U L S O L L T U S O L D U L ER L S O L G L S UH L B R A M A G L I D E D L G U L L P A Q A NG G L JH I M E L B A A G P A Q U B R A B O NG B S O M Q O B A G A Q U A Q O L N S O S U B A Q UH B O L M I B O ER O S O S UH L K N Y O L G I V A K K O V UH NG W R G P O L T U K U W E T U UH S A M I D K A N D UH NG T S O M A M A G D U ER L S ER U B ER JH Q K L G K UH T L G R L B ER I JH G ER O S UH A Q O G P O ER S O M B O L O M O L D U ER Q O ER O G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0298, best cost 5127.85 + 115956 = 121084 over 1586 frames.
+0738.130117.075101.0298 K U ER L K UH L K I R B K O NG Q L D S Q E S UH T U L G ER L Y U K O T O L G A Q O S UH A G T U K O N T S U O N R G P R O S O L T O B A Q U F ER S U R G O L S F UH T D UH L G UH L K O S P R E T O L K UH U K O F ER S U L S K L B O L U K O L G O NG R L M E G L M I T S S A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0299, best cost 7934.01 + 157432 = 165366 over 2166 frames.
+0738.130117.075101.0299 Q A Q O N G L P O ER G O T O S O SH U W L T U ER G L T O L L U W E G K K R B UH Q U T O S S I T ER S O SH U Q S U L T L S U S Q G L T O L U K W E G K L JH Y U R T S U ER A S O S U L K O R G P ER SH O L G Q O N D I M A SH U R F ER O Q S UH O L B A L L T ER S O S K L L S U Q O P O ER E T T O G P O ER O S A B O P ER G A A G D U OW K S I L G R O V ER U A M A O S O M O S K ER A K O O L S A NG B A Q O L U D UH V R L M S O L T O L Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0300, best cost 4153.19 + 94384.5 = 98537.6 over 1286 frames.
+0738.130117.075101.0300 K K A U K M O T UH L K M R D UH NG K O T S O G U B ER L O K L S U ER D R O S U K L L K R G B U K O ER U D K S U P A G T Y M O A Q O ER L S O O N A L G R G T L S O L K A Q K O B U Q U K K ER I N O P O L I B U T Q Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0301, best cost 921.547 + 30926.1 = 31847.7 over 456 frames.
+0738.130117.075101.0301 K K O S U U D L U R O L D M A G Q A Q U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0302, best cost 2367.41 + 53787 = 56154.4 over 756 frames.
+0738.130117.075101.0302 UH L N D I T ER B O L O NG B U G L K O G M O S A K A Q U B L Y U ER A Q T Y U L U NG Q O L G L U L G A Q O M U A NG S U R I S D Q A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0303, best cost 2020.35 + 50769.9 = 52790.2 over 716 frames.
+0738.130117.075101.0303 M O S K I M A Q G U R O B R I M I L Y U O B O K A Q O ER O D G U L U S K U M H O D U R S UH A L L U N G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0304, best cost 1497.09 + 36325.3 = 37822.4 over 516 frames.
+0738.130117.075101.0304 Q A NG K O S R G A K S L N NG A K ER U A M A O ER L G UH V ER L E G L L U B O ER U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0305, best cost 1253.59 + 36467.6 = 37721.2 over 496 frames.
+0738.130117.075101.0305 B O B O M O S S I L UH A Q U M A K ER I P A A L M A ER A NG B O ER Q A G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0306, best cost 1908.24 + 46196.3 = 48104.6 over 616 frames.
+0738.130117.075101.0306 K ER A Q O NG W A NG L K E T O NG K O S UH B A Q U NG M O S P A K T O S O ER H N A Q U P O NG G S UH B G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0307, best cost 2285.64 + 53317.1 = 55602.8 over 756 frames.
+0738.130117.075101.0307 Q O L D I T ER B O ER L O M O V I G U G M A S O K O G U U ER A T L G L U ER G L U K ER G A Q O M A L L A NG S O L L S D Q A Q K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0308, best cost 1140.9 + 31947.5 = 33088.4 over 436 frames.
+0738.130117.075101.0308 L UH D L O K O S O B U L L G G G D E S U P A Q K O L G L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0309, best cost 1594.32 + 38923.4 = 40517.8 over 526 frames.
+0738.130117.075101.0309 K U L G L L K UH L D L S U M K O B U H E K Q O ER G ER M A G N S O N Q UH B U H E Q A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0310, best cost 1414.49 + 34998.6 = 36413.1 over 486 frames.
+0738.130117.075101.0310 K UH L K UH A W O U K O M U L G ER ER L U N NG UH A M O S O B L L B A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0311, best cost 1371.84 + 38318.9 = 39690.8 over 526 frames.
+0738.130117.075101.0311 L W L ER L K U L L U M Q O O ER L K O S U K W A K L T U N L P O O L L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0312, best cost 1132.35 + 31872.7 = 33005.1 over 436 frames.
+0738.130117.075101.0312 L S U U L G L K S R D Q A B M O Q P A Q A S D D M A G L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0313, best cost 958.205 + 28648 = 29606.2 over 406 frames.
+0738.130117.075101.0313 L K O ER UH L L O U W O A Q O ER M O NG B U NG K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0314, best cost 1760.11 + 43049.8 = 44809.9 over 606 frames.
+0738.130117.075101.0314 M A G U L L U G U L G L V O B O S K O G B O A G W A Q P A K W A K A K A G G M A G L L A Q A Q Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0315, best cost 1154.79 + 32011.9 = 33166.7 over 456 frames.
+0738.130117.075101.0315 L W L G K O N M A NG S L L I D K U L M I M A B U Q L K U S S L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0316, best cost 1567.45 + 41521.7 = 43089.2 over 576 frames.
+0738.130117.075101.0316 K L S UH JH U Q A L L S ER G T O Q M A G UH NG K O T S O L I H O S O N L A W O ER G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0317, best cost 3565.87 + 75302.1 = 78868 over 1076 frames.
+0738.130117.075101.0317 L I P A P A Q O R B M A G S O L M I P U T Y U P U T Q A G K O NG S O G U L G S R G Q A B U L G G O ER A Q K UH L M A G Q A K U O Q Q A F UH D L U K O M U G U R L H O S O M O ER I P U T R I P U T Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0318, best cost 4831.78 + 103100 = 107932 over 1446 frames.
+0738.130117.075101.0318 A Q A Q K O ER A NG K O S R B O L M A G E K O V UH N A Q K A Q U S O A K UH Q Q U L U B A G L UH K A M B A M A SH UH T S Q G K I M A W O G A M I N U L G L O L N A Q K UH B U O NG A L L A T L Q O S O M A Q U L U G S O L G D UH A L N A L S S O L L O L G UH M A R NG A B U B U Q K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0319, best cost 1172.64 + 30379.6 = 31552.2 over 436 frames.
+0738.130117.075101.0319 T M A G K I T UH L L G U A Q A G K A L G L T S Q A NG K O ER A Q U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0320, best cost 4582.61 + 100762 = 105345 over 1366 frames.
+0738.130117.075101.0320 M A G D U A Q O S O S O G A Q A G U B L A K U L M A G P O ER A K L G A G M A G K A G A Q K O M A NG A U A M O K S UH A K O ER M A K I P A K O S U O L B L ER Y O V ER G D U A Q O B O K O D I P ER M S O S UH A K U L K O B ER L Y U L G K O B A T M I P U P I N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0321, best cost 3954.88 + 88546 = 92500.9 over 1196 frames.
+0738.130117.075101.0321 A Q K P S UH B R U K O G R O P L G P A S K L D P O L U L JH O M O NG Q A Q T S I L Q A K K O M A UH P A H U ER K UH U ER L L B S O NG Q T L G L Y U Q O G L K UH A L Y O L K L B R G L G L G P A G L G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0322, best cost 5120.46 + 104331 = 109452 over 1466 frames.
+0738.130117.075101.0322 A Q K B U U T S U R I Y O Q O B A Q U B L O P W A G P O M U U Q K B T O M O L L G S UH A K U L O K O S O G L A B O ER A Q O M A K A T S I L UH S O B O L Y U Q M I B R M A O ER L B Q U G K O G U L D M A G M A G D I N L M A G U U B U L O SH O N K O B R O S O Q A M O R M A K U A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0323, best cost 3843.17 + 92953.8 = 96797 over 1346 frames.
+0738.130117.075101.0323 Q A U A M O Q U Q S M A K U S O G ER S O B O O D ER M I Q M A Q K O O N L A A NG S O P U L K L N A P ER G K O ER T Q A G D U M D U NG N L UH B ER M A G T U B U Q A Q A M A G Q A M W A G Q A G N S O N B A Q U L G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0324, best cost 7224.05 + 140302 = 147526 over 2026 frames.
+0738.130117.075101.0324 K G Y U UH M I L O S R B R L D O S U R S UH Q O G U L O NG K A G U B R O P O M O T Y E Q O N A M O L K R B U B U Q U T S O NG Q Q A P ER G L Y U A P O Q I S U Q I M I K A K S I H U L B K O G U T S U B U L G S O E S O A K ER G A NG G T O Q U G M A Q G L E T S UH T U O A K T O O Q S O NG Q O B U K O S U L D U A G D U G H U D G I R V H A M A P A P O M U L OW S O ER U B U L O SH O L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0325, best cost 1334.11 + 35091.6 = 36425.8 over 506 frames.
+0738.130117.075101.0325 K L I N K U O L L Q A K Q P A NG G P A M Q O NG P U W S O S O N D Y U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0326, best cost 1436.14 + 34490 = 35926.2 over 516 frames.
+0738.130117.075101.0326 K A Q ER Q A U ER L ER O A M O B ER L O O NG B R O S U P ER O S Q L G K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0327, best cost 403.884 + 14160.9 = 14564.8 over 226 frames.
+0738.130117.075101.0327 A U W A L L A O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0328, best cost 831.423 + 20624.2 = 21455.7 over 306 frames.
+0738.130117.075101.0328 K O ER D ER V O ER A K G P A M A OY M Y U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0329, best cost 634.039 + 18230.5 = 18864.5 over 266 frames.
+0738.130117.075101.0329 Q L O B U T L U B ER V SH O Q A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0330, best cost 1076.53 + 22677.3 = 23753.8 over 346 frames.
+0738.130117.075101.0330 K L U B O ER A Q O M O ER A M I U R G R OW JH U B O NG T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0331, best cost 1646.98 + 35109.1 = 36756.1 over 506 frames.
+0738.130117.075101.0331 M Q K O P Y U T L M A B ER Q O S O L S K ER A Q G O G D E R G A M B L S K ER I L N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0332, best cost 816.252 + 25125.1 = 25941.3 over 376 frames.
+0738.130117.075101.0332 M R B U Q O Q G P A S O ER OY M I K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0333, best cost 1133.28 + 28765.1 = 29898.4 over 426 frames.
+0738.130117.075101.0333 L G L S O N B R E M O L A W O G T O G K U Q K O ER L S L M O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0334, best cost 1201.16 + 27617.3 = 28818.5 over 396 frames.
+0738.130117.075101.0334 K A B O ER U K O M O B L U T U Q P R U R G L K L B L K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0335, best cost 1062.7 + 23269.8 = 24332.5 over 356 frames.
+0738.130117.075101.0335 M A O L H O ER V ER O L EY M U W M B K SH O V A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0336, best cost 1143.27 + 26976.2 = 28119.5 over 396 frames.
+0738.130117.075101.0336 K O B A G Q A S O A B W A B R O L B S U B U L M A K U Q G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0337, best cost 808.304 + 23083.4 = 23891.7 over 346 frames.
+0738.130117.075101.0337 A Q Q A G ER O A U Q U T U A Q U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0338, best cost 1254.3 + 31686.3 = 32940.6 over 456 frames.
+0738.130117.075101.0338 A G L U A G D U Q U G L P A NG G ER O S S L UH L ER Q A M U L G Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0339, best cost 665.589 + 20885.5 = 21551 over 316 frames.
+0738.130117.075101.0339 G G B Y U T U P U G U A NG G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0340, best cost 940.92 + 23654.9 = 24595.8 over 356 frames.
+0738.130117.075101.0340 L A B M I L S O A K T O NG K O O B U H E K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0341, best cost 999.684 + 23077.6 = 24077.3 over 356 frames.
+0738.130117.075101.0341 Q U ER A B L EY M I R T G W A Q A G UH N I N NG A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0342, best cost 1062.18 + 29774.7 = 30836.9 over 436 frames.
+0738.130117.075101.0342 A Q K A G A Q A G D U R M A G A M K O S M A U L M U L G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0343, best cost 1191.95 + 27570.3 = 28762.2 over 416 frames.
+0738.130117.075101.0343 Q A B W A G Q A S UH W A G ER O L D G S U B U L M A K K O G Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0344, best cost 1223.91 + 29390.7 = 30614.7 over 426 frames.
+0738.130117.075101.0344 G UH B A G L S Q A Q W A G R O L D L M S U B U L M A UH T U R G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0738.130117.075101.0345, best cost 1180.69 + 25261.3 = 26442 over 376 frames.
+0738.130117.075101.0345 Q A Q K I G Y E V D Q U G U S O L M A UH L M S O A NG R O L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:124) Overall cost per frame is 75.1906 = 2.82577 [graph] + 72.3648 [acoustic] over 154684 frames.
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:128) Done 324 lattices, failed for 0
+# Accounting: time=2 threads=1
+# Ended (code 0) at Sat Apr 27 20:59:14 PST 2019, elapsed time 2 seconds

@@ -1,0 +1,762 @@
+# lattice-best-path --lm-scale=9 --word-symbol-table=exp/tri2b/graph/words.txt "ark:gunzip -c exp/tri2b/decode/lat.*.gz|" ark,t:exp/tri2b/decode/scoring/9.tra 
+# Started at Sat Apr 27 19:32:13 PST 2019
+#
+lattice-best-path --lm-scale=9 --word-symbol-table=exp/tri2b/graph/words.txt 'ark:gunzip -c exp/tri2b/decode/lat.*.gz|' ark,t:exp/tri2b/decode/scoring/9.tra 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0002, best cost 461.728 + 8219.39 = 8681.12 over 142 frames.
+0156.110816.035620.0002 Q A P O S A T U H O E K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0003, best cost 413.556 + 7533.8 = 7947.36 over 138 frames.
+0156.110816.035620.0003 K A S I N T A H UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0004, best cost 349.694 + 6791.29 = 7140.99 over 117 frames.
+0156.110816.035620.0004 K A U L A Y A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0005, best cost 490.798 + 8033.6 = 8524.39 over 143 frames.
+0156.110816.035620.0005 A P O S A T U Q H O Q T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0006, best cost 265.518 + 5635.07 = 5900.58 over 105 frames.
+0156.110816.035620.0006 P A NG A N A Y 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0007, best cost 384.684 + 6429.93 = 6814.61 over 106 frames.
+0156.110816.035620.0007 K U G P A R E UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0008, best cost 229.562 + 5235.9 = 5465.46 over 95 frames.
+0156.110816.035620.0008 B EY K O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0009, best cost 240.816 + 4841.77 = 5082.58 over 96 frames.
+0156.110816.035620.0009 Q I N AY I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0010, best cost 307.83 + 5171.54 = 5479.37 over 104 frames.
+0156.110816.035620.0010 B Y A N L A N L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0011, best cost 203.404 + 5439.41 = 5642.81 over 94 frames.
+0156.110816.035620.0011 I T A I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0012, best cost 269.19 + 5147.05 = 5416.24 over 94 frames.
+0156.110816.035620.0012 Q I N AY H I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0013, best cost 212.266 + 5780.2 = 5992.47 over 100 frames.
+0156.110816.035620.0013 H I T A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0014, best cost 313.347 + 6660.57 = 6973.91 over 109 frames.
+0156.110816.035620.0014 K I L I K I L I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0015, best cost 370.645 + 5840.41 = 6211.05 over 103 frames.
+0156.110816.035620.0015 H I N T U T O R O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0016, best cost 332.506 + 5355.62 = 5688.13 over 91 frames.
+0156.110816.035620.0016 Q A P D O UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0017, best cost 183.599 + 4284.71 = 4468.31 over 78 frames.
+0156.110816.035620.0017 P U Y O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0018, best cost 215.775 + 4827.27 = 5043.04 over 82 frames.
+0156.110816.035620.0018 R I T I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0019, best cost 405.871 + 6747.77 = 7153.64 over 109 frames.
+0156.110816.035620.0019 K U Y U K O T UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0020, best cost 423.662 + 8010.99 = 8434.65 over 141 frames.
+0156.110816.035620.0020 B A L U N B A L U N E N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0022, best cost 247.863 + 4740.23 = 4988.09 over 82 frames.
+0156.110816.035620.0022 Q B A G A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0023, best cost 242.123 + 5369.94 = 5612.06 over 95 frames.
+0156.110816.035620.0023 L I K O D 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0024, best cost 249.595 + 5330.65 = 5580.24 over 88 frames.
+0156.110816.035620.0024 T A L U K A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0026, best cost 235.756 + 4634.28 = 4870.04 over 85 frames.
+0156.110816.035620.0026 B A A B A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0027, best cost 321.987 + 5865.41 = 6187.39 over 99 frames.
+0156.110816.035620.0027 G U L O G O D 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0028, best cost 328.417 + 7351.91 = 7680.33 over 133 frames.
+0156.110816.035620.0028 K A L I K I NG A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0029, best cost 226.262 + 5099.54 = 5325.8 over 97 frames.
+0156.110816.035620.0029 Q A M A Q I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0030, best cost 284.333 + 5658.69 = 5943.03 over 101 frames.
+0156.110816.035620.0030 K ER A SH A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0031, best cost 264.782 + 5528.14 = 5792.92 over 97 frames.
+0156.110816.035620.0031 N A T I UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0032, best cost 400.807 + 6282.23 = 6683.04 over 106 frames.
+0156.110816.035620.0032 Q E T A R T U UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0033, best cost 300.443 + 5900.72 = 6201.17 over 103 frames.
+0156.110816.035620.0033 F I K T O R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0034, best cost 330.226 + 4830.86 = 5161.08 over 86 frames.
+0156.110816.035620.0034 O A NG M A ER UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0035, best cost 244.18 + 5681.47 = 5925.65 over 100 frames.
+0156.110816.035620.0035 A N T I N I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0036, best cost 418.428 + 7610.33 = 8028.76 over 130 frames.
+0156.110816.035620.0036 M A R K Q A N T I N I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0037, best cost 312.292 + 6761.32 = 7073.61 over 109 frames.
+0156.110816.035620.0037 R E K A R D O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0038, best cost 180.161 + 4233.26 = 4413.42 over 71 frames.
+0156.110816.035620.0038 L U K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0039, best cost 185.808 + 4997.37 = 5183.18 over 90 frames.
+0156.110816.035620.0039 A R E N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0040, best cost 238.931 + 4647.47 = 4886.4 over 88 frames.
+0156.110816.035620.0040 T A M A N I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0041, best cost 319.35 + 5637.24 = 5956.59 over 98 frames.
+0156.110816.035620.0041 T D A M A N I K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0042, best cost 234.125 + 4487.56 = 4721.68 over 86 frames.
+0156.110816.035620.0042 D A M A N I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0043, best cost 295.875 + 5545.22 = 5841.09 over 88 frames.
+0156.110816.035620.0043 ER SH E R K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0044, best cost 405.582 + 6381.59 = 6787.17 over 109 frames.
+0156.110816.035620.0044 ER A F R E A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0045, best cost 329.277 + 4832.42 = 5161.7 over 84 frames.
+0156.110816.035620.0045 P I K E R UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0046, best cost 275.669 + 6332.68 = 6608.35 over 112 frames.
+0156.110816.035620.0046 M A R JH EY N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0047, best cost 256.107 + 5888.94 = 6145.05 over 99 frames.
+0156.110816.035620.0047 L EY SH O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0048, best cost 275.577 + 5062.17 = 5337.75 over 99 frames.
+0156.110816.035620.0048 P A M E N L A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0049, best cost 126.649 + 3510.98 = 3637.62 over 63 frames.
+0156.110816.035620.0049 H I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0050, best cost 198.184 + 4894.25 = 5092.43 over 91 frames.
+0156.110816.035620.0050 K R I S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0051, best cost 268.744 + 5029.48 = 5298.22 over 91 frames.
+0156.110816.035620.0051 SH EY L A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0052, best cost 188.95 + 5216.01 = 5404.96 over 96 frames.
+0156.110816.035620.0052 S A R A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0053, best cost 331.904 + 5741.15 = 6073.06 over 102 frames.
+0156.110816.035620.0053 I S E B E N L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0054, best cost 272.416 + 5496.17 = 5768.59 over 101 frames.
+0156.110816.035620.0054 JH E O LY A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0055, best cost 215.107 + 5511.48 = 5726.58 over 103 frames.
+0156.110816.035620.0055 S T A N A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0056, best cost 241.299 + 5210.23 = 5451.52 over 91 frames.
+0156.110816.035620.0056 K A M I Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0057, best cost 297.812 + 6186.78 = 6484.59 over 107 frames.
+0156.110816.035620.0057 M E R I S Q A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0058, best cost 317.996 + 6326.07 = 6644.06 over 114 frames.
+0156.110816.035620.0058 M E ER SH EY N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0059, best cost 224.251 + 6622.14 = 6846.39 over 108 frames.
+0156.110816.035620.0059 SH A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0060, best cost 244.112 + 5316.59 = 5560.7 over 97 frames.
+0156.110816.035620.0060 E ER O I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0061, best cost 276.159 + 6290.18 = 6566.34 over 116 frames.
+0156.110816.035620.0061 D Q A S I S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0062, best cost 322.022 + 6543.95 = 6865.98 over 112 frames.
+0156.110816.035620.0062 B AW T I S T A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0063, best cost 337.268 + 6274.51 = 6611.78 over 112 frames.
+0156.110816.035620.0063 M A N N T A L UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0064, best cost 434.684 + 7308.53 = 7743.21 over 138 frames.
+0156.110816.035620.0064 D A L A S R E I Q A S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0065, best cost 265.565 + 5754.5 = 6020.06 over 104 frames.
+0156.110816.035620.0065 S A A G K U N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0066, best cost 324.62 + 6456.31 = 6780.93 over 107 frames.
+0156.110816.035620.0066 S I NG G A P O ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0067, best cost 301.003 + 5390.17 = 5691.17 over 99 frames.
+0156.110816.035620.0067 L A G A R R O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0068, best cost 322.685 + 6910.45 = 7233.14 over 121 frames.
+0156.110816.035620.0068 S E N CH A G O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0069, best cost 585.847 + 13648.4 = 14234.2 over 219 frames.
+0156.110816.035620.0069 F I L I P I N D I L E CH EY SH 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0070, best cost 360.244 + 7837.06 = 8197.3 over 130 frames.
+0156.110816.035620.0070 Q K K A G A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0071, best cost 628.039 + 11369.9 = 11998 over 188 frames.
+0156.110816.035620.0071 ER S F I L I P I N H O T I G S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0072, best cost 659.773 + 12967.1 = 13626.9 over 220 frames.
+0156.110816.035620.0072 Q I T A NG P ER ER I S L I P I G S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0073, best cost 470.327 + 7858.8 = 8329.13 over 130 frames.
+0156.110816.035620.0073 K L O T T A G A T UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0074, best cost 471.421 + 8599.7 = 9071.12 over 149 frames.
+0156.110816.035620.0074 SH Y E M EY N A T UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0075, best cost 518.396 + 10253.2 = 10771.6 over 177 frames.
+0156.110816.035620.0075 S A N AY K AY N A N SH UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0076, best cost 1095.47 + 17457.7 = 18553.2 over 289 frames.
+0156.110816.035620.0076 T I L I T AW T A G A G K O N I N I K EY SH O N S L P I NG T S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0077, best cost 337.719 + 5788.43 = 6126.15 over 99 frames.
+0156.110816.035620.0077 B A Q N K A R K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0078, best cost 815.741 + 13390 = 14205.8 over 229 frames.
+0156.110816.035620.0078 S E N T R E S K O L A R L I T ER SH I T I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0079, best cost 697.907 + 12792.5 = 13490.4 over 217 frames.
+0156.110816.035620.0079 Q I T A N P ER A K ER T I S L I T I S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0080, best cost 436.093 + 7165.23 = 7601.32 over 127 frames.
+0156.110816.035620.0080 A L I K S M AY N I NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0081, best cost 993.227 + 16622.8 = 17616 over 284 frames.
+0156.110816.035620.0081 M A UY O L T A N L P A N T Q E N K A S K A NG P A N I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0082, best cost 720.591 + 14422.3 = 15142.9 over 248 frames.
+0156.110816.035620.0082 I V E S I B E N K ER K R EY SH A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0084, best cost 849.759 + 18676.1 = 19525.8 over 323 frames.
+0156.110816.035620.0084 N A L A N Y O NG P L A A S A S E ER V I S UY S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0085, best cost 712.342 + 13967.6 = 14680 over 229 frames.
+0156.110816.035620.0085 K R A A N R EY SH A N SH I R E N S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0087, best cost 483.222 + 10578.3 = 11061.6 over 178 frames.
+0156.110816.035620.0087 L I N G A N SH I T S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0088, best cost 563.671 + 8719.75 = 9283.42 over 160 frames.
+0156.110816.035620.0088 L A S P A L M A S K A T A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0089, best cost 815.007 + 14367.2 = 15182.2 over 252 frames.
+0156.110816.035620.0089 M A L I B A G O P L U W A T E ER B P I UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0090, best cost 1050.58 + 17169.6 = 18220.2 over 307 frames.
+0156.110816.035620.0090 M N A G A N I M P A S N A NG S E ER V I S E S A G A N K S N A S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0091, best cost 1018.13 + 17189.5 = 18207.6 over 291 frames.
+0156.110816.035620.0091 A S K O T M A K A T I S E ER V I S E S E K A N K S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0092, best cost 940.55 + 15735.3 = 16675.8 over 273 frames.
+0156.110816.035620.0092 SH A NG Q A L A S M A K T A N L T S O ER T A N S P O A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0093, best cost 440.888 + 8301.86 = 8742.75 over 146 frames.
+0156.110816.035620.0093 A N I N S I L A M A N I L A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0094, best cost 512.069 + 8164.72 = 8676.79 over 154 frames.
+0156.110816.035620.0094 P A M P D A S N A K A T A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0095, best cost 863.969 + 13169.6 = 14033.6 over 234 frames.
+0156.110816.035620.0095 L E S A N M I I P I B A ER A K A NG Q A T T A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0097, best cost 530.708 + 8660.41 = 9191.11 over 155 frames.
+0156.110816.035620.0097 I S L A N A NG M A K T A A N N Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0098, best cost 648.402 + 8862.43 = 9510.84 over 153 frames.
+0156.110816.035620.0098 Q I S L A N A NG K O R E AY D O Q R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0099, best cost 441.809 + 6718.98 = 7160.78 over 127 frames.
+0156.110816.035620.0099 A Y A G A S E N T E R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0100, best cost 487.643 + 8994.28 = 9481.92 over 149 frames.
+0156.110816.035620.0100 H I N U L U G A NG N T A T A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0101, best cost 524.218 + 7737.17 = 8261.38 over 139 frames.
+0156.110816.035620.0101 Q A M B U K L A L D A M Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0102, best cost 480.884 + 7265.93 = 7746.81 over 134 frames.
+0156.110816.035620.0102 I S L A N A NG Q A A P Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0103, best cost 678.811 + 11178.1 = 11856.9 over 206 frames.
+0156.110816.035620.0103 S I M B A H A N A NG S N A NG T A T A M A S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0104, best cost 495.045 + 8661.46 = 9156.51 over 146 frames.
+0156.110816.035620.0104 NG M A Y NG S L I P A R K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0105, best cost 785.145 + 12444.6 = 13229.8 over 226 frames.
+0156.110816.035620.0105 S I M B A H A N N A NG S N A NG S E B A N CH A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0106, best cost 644.237 + 10711.2 = 11355.4 over 202 frames.
+0156.110816.035620.0106 S I M P A H A N A NG S A NG T A T A M A S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0107, best cost 242.513 + 5517.06 = 5759.58 over 99 frames.
+0156.110816.035620.0107 D I L A R AW 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0108, best cost 367.175 + 6485 = 6852.18 over 120 frames.
+0156.110816.035620.0108 SH AY N A T A NG A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0109, best cost 301.453 + 6618.73 = 6920.18 over 122 frames.
+0156.110816.035620.0109 S E ER SH A D O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0110, best cost 258.352 + 5603.25 = 5861.6 over 100 frames.
+0156.110816.035620.0110 H I L A A K O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0111, best cost 410.702 + 5994.42 = 6405.12 over 108 frames.
+0156.110816.035620.0111 D I S N A G D O UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0112, best cost 413.561 + 6955.63 = 7369.19 over 127 frames.
+0156.110816.035620.0112 D I N U Q K O Q A N Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0113, best cost 283.783 + 6735 = 7018.78 over 112 frames.
+0156.110816.035620.0113 W E CH O N N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0114, best cost 206.417 + 4745.35 = 4951.76 over 89 frames.
+0156.110816.035620.0114 A N S I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0115, best cost 218.657 + 4713.93 = 4932.59 over 96 frames.
+0156.110816.035620.0115 L A Q I NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0116, best cost 387.209 + 5940.6 = 6327.81 over 112 frames.
+0156.110816.035620.0116 H I N N U R U N O O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0117, best cost 274.669 + 5877.19 = 6151.86 over 108 frames.
+0156.110816.035620.0117 L A CH O N N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0118, best cost 190.775 + 5275.94 = 5466.72 over 103 frames.
+0156.110816.035620.0118 K A N I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0119, best cost 402.085 + 6219.69 = 6621.77 over 118 frames.
+0156.110816.035620.0119 M A CH E A D O UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0120, best cost 352.488 + 5949.62 = 6302.1 over 116 frames.
+0156.110816.035620.0120 T I N A G O Q A N L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0121, best cost 251.106 + 5626 = 5877.11 over 101 frames.
+0156.110816.035620.0121 S O NG M A N N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0122, best cost 266.81 + 4225.61 = 4492.42 over 82 frames.
+0156.110816.035620.0122 P A L A B U K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0123, best cost 304.529 + 6514.62 = 6819.15 over 121 frames.
+0156.110816.035620.0123 H A M O N A D O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0124, best cost 206.268 + 5011.15 = 5217.41 over 89 frames.
+0156.110816.035620.0124 A N S I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0125, best cost 412.466 + 7477.82 = 7890.29 over 129 frames.
+0156.110816.035620.0125 A N N S I T M O N UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0126, best cost 370.392 + 5705.71 = 6076.1 over 101 frames.
+0156.110816.035620.0126 S O R I S Q UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0127, best cost 581.003 + 8553.73 = 9134.73 over 155 frames.
+0156.110816.035620.0127 P A G A D I Q A N Q E A K O ER K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0128, best cost 546.16 + 9797.35 = 10343.5 over 178 frames.
+0156.110816.035620.0128 T U M A G A T E K A ER P O ER T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0130, best cost 261.366 + 5660.76 = 5922.13 over 100 frames.
+0156.110816.035620.0130 NG A Y O Q N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0131, best cost 588.72 + 8673.12 = 9261.83 over 144 frames.
+0156.110816.035620.0131 T A T UY A O Q E ER P O ER K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0132, best cost 638.022 + 13016.4 = 13654.4 over 229 frames.
+0156.110816.035620.0132 S A NG M W A NG G A N K A N A SH UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0133, best cost 793.351 + 11667.8 = 12461.1 over 199 frames.
+0156.110816.035620.0133 Q L A W A NG Q I N T ER N A SH L A NG Q E K O ER 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0134, best cost 300.935 + 5078.56 = 5379.5 over 91 frames.
+0156.110816.035620.0134 Q I S R A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0135, best cost 249.78 + 4793.59 = 5043.37 over 90 frames.
+0156.110816.035620.0135 K A B I H I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0136, best cost 286.584 + 5164.84 = 5451.42 over 105 frames.
+0156.110816.035620.0136 R I NG N R I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0137, best cost 354.459 + 6815.67 = 7170.13 over 131 frames.
+0156.110816.035620.0137 L A B I N L I M A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0138, best cost 290.527 + 5521.05 = 5811.58 over 100 frames.
+0156.110816.035620.0138 M I N U T T O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0139, best cost 303.134 + 6540.9 = 6844.04 over 111 frames.
+0156.110816.035620.0139 A G O S T U O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0140, best cost 335.572 + 6095.48 = 6431.05 over 109 frames.
+0156.110816.035620.0140 B Y E UY S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0141, best cost 291.975 + 5737.71 = 6029.68 over 105 frames.
+0156.110816.035620.0141 M I N U T T O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0142, best cost 390.82 + 6547.92 = 6938.74 over 120 frames.
+0156.110816.035620.0142 Q A R O Q A R A Q O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0143, best cost 355.869 + 6303.6 = 6659.47 over 135 frames.
+0156.110816.035620.0143 NG M A Y A M A Y A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0144, best cost 322.127 + 5939.21 = 6261.33 over 111 frames.
+0156.110816.035620.0144 K A M A K A L A W A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0145, best cost 292.945 + 5926.45 = 6219.39 over 99 frames.
+0156.110816.035620.0145 S A N G A L I Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0146, best cost 211.055 + 4690.55 = 4901.61 over 93 frames.
+0156.110816.035620.0146 B A G O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0148, best cost 357.474 + 7442.39 = 7799.87 over 133 frames.
+0156.110816.035620.0148 K A R A K A R A K A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0149, best cost 280.901 + 5204.76 = 5485.66 over 94 frames.
+0156.110816.035620.0149 M I N U T O O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0150, best cost 356.668 + 6076.47 = 6433.13 over 109 frames.
+0156.110816.035620.0150 T A NG H A L K I NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0151, best cost 475.046 + 8106.05 = 8581.09 over 142 frames.
+0156.110816.035620.0151 D A P I T T A NG H A N H I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0152, best cost 195.463 + 4519.57 = 4715.04 over 88 frames.
+0156.110816.035620.0152 L A T I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0153, best cost 215.93 + 5320.72 = 5536.65 over 102 frames.
+0156.110816.035620.0153 I S A A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0154, best cost 434.477 + 6203.06 = 6637.54 over 110 frames.
+0156.110816.035620.0154 K A M A K A T U D O UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0155, best cost 384.15 + 6641.03 = 7025.18 over 124 frames.
+0156.110816.035620.0155 K A M A K A Y L A N L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0156, best cost 258.442 + 5626.63 = 5885.07 over 106 frames.
+0156.110816.035620.0156 NG M A A G A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0157, best cost 235.23 + 5380.31 = 5615.54 over 98 frames.
+0156.110816.035620.0157 A L A S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0159, best cost 304.042 + 6589.93 = 6893.98 over 115 frames.
+0156.110816.035620.0159 S E G U N D O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0160, best cost 350.685 + 6184.65 = 6535.34 over 109 frames.
+0156.110816.035620.0160 Q I P U Q I P O O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0161, best cost 258.493 + 5580.55 = 5839.05 over 108 frames.
+0156.110816.035620.0161 M A A R A Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0162, best cost 482.293 + 8756.79 = 9239.08 over 162 frames.
+0156.110816.035620.0162 B I G L A A NG P A G B A H A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0163, best cost 367.751 + 5614.19 = 5981.94 over 106 frames.
+0156.110816.035620.0163 T A G Q A R A A NG O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0164, best cost 263.825 + 5482.01 = 5745.83 over 107 frames.
+0156.110816.035620.0164 Q A M I H A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0165, best cost 376.465 + 5757.69 = 6134.16 over 109 frames.
+0156.110816.035620.0165 H A L U M I K M I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0166, best cost 466.061 + 9060.37 = 9526.43 over 160 frames.
+0156.110816.035620.0166 P O G S O N A NG H A NG I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0167, best cost 356.181 + 7357.99 = 7714.17 over 132 frames.
+0156.110816.035620.0167 H A L U M I G N I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0168, best cost 263.815 + 4972.13 = 5235.95 over 95 frames.
+0156.110816.035620.0168 P U L A N L 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0169, best cost 340.103 + 6978.43 = 7318.54 over 128 frames.
+0156.110816.035620.0169 Q E S A N S I T I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0170, best cost 437.009 + 6844.98 = 7281.99 over 118 frames.
+0156.110816.035620.0170 K A T B A L O G A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0171, best cost 355.437 + 6138.89 = 6494.33 over 112 frames.
+0156.110816.035620.0171 M A N T I N U T P A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0172, best cost 232.904 + 5483.69 = 5716.59 over 94 frames.
+0156.110816.035620.0172 M A N I Y A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0173, best cost 369.691 + 5984.1 = 6353.79 over 113 frames.
+0156.110816.035620.0173 M A N E L U M I O NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0174, best cost 319.645 + 6509.44 = 6829.08 over 118 frames.
+0156.110816.035620.0174 K A S Q A M I S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0175, best cost 423.997 + 6641.51 = 7065.5 over 119 frames.
+0156.110816.035620.0175 M A N T I L U M I U NG N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0176, best cost 331.238 + 6562.08 = 6893.32 over 128 frames.
+0156.110816.035620.0176 M B A T A NG G A S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0177, best cost 399.675 + 6787.58 = 7187.26 over 117 frames.
+0156.110816.035620.0177 K A T B A L O G K A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0178, best cost 384.946 + 5396.76 = 5781.71 over 99 frames.
+0156.110816.035620.0178 R O A H Q S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0179, best cost 272.665 + 5392.02 = 5664.68 over 98 frames.
+0156.110816.035620.0179 K A K O L A G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0180, best cost 227.788 + 4519.3 = 4747.09 over 86 frames.
+0156.110816.035620.0180 Y A G A O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0181, best cost 217.503 + 4423.97 = 4641.47 over 83 frames.
+0156.110816.035620.0181 T I T O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0182, best cost 299.765 + 4417.97 = 4717.74 over 82 frames.
+0156.110816.035620.0182 K A M I H I Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0183, best cost 212.652 + 5130.82 = 5343.47 over 96 frames.
+0156.110816.035620.0183 R I Q A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0184, best cost 166.083 + 4343.72 = 4509.81 over 85 frames.
+0156.110816.035620.0184 K A Y O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0185, best cost 214.035 + 5292.14 = 5506.18 over 96 frames.
+0156.110816.035620.0185 R I Q A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0186, best cost 238.32 + 5025.36 = 5263.68 over 91 frames.
+0156.110816.035620.0186 B A K I P 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0187, best cost 245.162 + 4440.67 = 4685.83 over 86 frames.
+0156.110816.035620.0187 K A M I H I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0188, best cost 198.524 + 5569.39 = 5767.91 over 97 frames.
+0156.110816.035620.0188 R O S A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0189, best cost 462.133 + 8242.93 = 8705.06 over 151 frames.
+0156.110816.035620.0189 Q I K A L A B I N P I T O NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0190, best cost 614.546 + 10298.8 = 10913.4 over 177 frames.
+0156.110816.035620.0190 Q I K A T A T N U NG P O T E L AW A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0191, best cost 433.53 + 6896.73 = 7330.26 over 131 frames.
+0156.110816.035620.0191 Q I K A T A T N U M P U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0192, best cost 707.444 + 9928.45 = 10635.9 over 178 frames.
+0156.110816.035620.0192 I K E T A T D U NG P U T E L AW Q A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0193, best cost 652.819 + 9453.38 = 10106.2 over 163 frames.
+0156.110816.035620.0193 Q I K A D A L A W A NG P U T K A T L O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0194, best cost 603.499 + 9955.15 = 10558.7 over 167 frames.
+0156.110816.035620.0194 Q I K A T A T T U NG P O T I S A A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0195, best cost 474.202 + 7676.48 = 8150.68 over 138 frames.
+0156.110816.035620.0195 Q I K A L A B I N K I M A NG Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0196, best cost 588.542 + 9156.27 = 9744.81 over 167 frames.
+0156.110816.035620.0196 Q I K A T A L A U NG P U T S I Q A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0197, best cost 646.263 + 9327.47 = 9973.73 over 172 frames.
+0156.110816.035620.0197 I K A T A T L U NG P U T W A L O NG A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0198, best cost 588.957 + 8886.09 = 9475.04 over 155 frames.
+0156.110816.035620.0198 Q I K A T A T N U NG P O T I S A A NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0199, best cost 483.958 + 7532.04 = 8015.99 over 142 frames.
+0156.110816.035620.0199 Q I K A L A B I NG P I T O NG N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0200, best cost 526.337 + 8897.67 = 9424 over 157 frames.
+0156.110816.035620.0200 Q I K A L A B I NG T A T L O NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0202, best cost 497.92 + 11839.2 = 12337.1 over 221 frames.
+0156.110816.035620.0202 N A H U L I N A H U L I Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0203, best cost 393.36 + 9274.52 = 9667.88 over 165 frames.
+0156.110816.035620.0203 T U L OW B U L O K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0205, best cost 398.941 + 11996.7 = 12395.6 over 235 frames.
+0156.110816.035620.0205 S U N O G S U N O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0206, best cost 355.142 + 8539.88 = 8895.02 over 159 frames.
+0156.110816.035620.0206 H A B A H A B A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0207, best cost 477.67 + 10525.5 = 11003.1 over 193 frames.
+0156.110816.035620.0207 S U N O G N S U N O G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0208, best cost 482.884 + 10652.8 = 11135.7 over 197 frames.
+0156.110816.035620.0208 B A A K K A Q B A K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0211, best cost 605.543 + 15857.3 = 16462.8 over 320 frames.
+0156.110816.035620.0211 K I T A K I H I T A Q K I T A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0213, best cost 439.589 + 8904.45 = 9344.04 over 170 frames.
+0156.110816.035620.0213 K A L I Y A R K A Y A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0214, best cost 490.915 + 10307 = 10797.9 over 174 frames.
+0156.110816.035620.0214 H I U K A T S U Q K A T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0215, best cost 778.762 + 12923.9 = 13702.7 over 227 frames.
+0156.110816.035620.0215 P A G P A N A Q I N K A N AW A N E N SH O T S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0216, best cost 461.915 + 8873 = 9334.92 over 157 frames.
+0156.110816.035620.0216 NG B I N A B A T I K I K A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0217, best cost 779.589 + 11609.7 = 12389.3 over 201 frames.
+0156.110816.035620.0217 H A NG N G A NG S N A M U L I NG P E K I K I T A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0218, best cost 611.167 + 7712.81 = 8323.98 over 150 frames.
+0156.110816.035620.0218 N A R A M NG S N A L A M A T P O K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0219, best cost 507.296 + 8489.03 = 8996.33 over 152 frames.
+0156.110816.035620.0219 M A L A P O NG A N O NG M A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0220, best cost 1331.27 + 19506.5 = 20837.8 over 344 frames.
+0156.110816.035620.0220 T A NG G A P I N P U N I NY A NG Q A M I N T O Q U NG S P U S O NG P A S A S E L A M A T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0221, best cost 1075.97 + 14483.6 = 15559.6 over 260 frames.
+0156.110816.035620.0221 T A NG G A P I Q P U N I NY A NG Q A N I M N A K I K I R A M A H I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0223, best cost 696.499 + 11894.9 = 12591.4 over 205 frames.
+0156.110816.035620.0223 A N K A NG S A M U L I NG T A T I K I T A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0224, best cost 563.79 + 7905.11 = 8468.9 over 147 frames.
+0156.110816.035620.0224 M A G A N N A NG Q U M A G K A P P O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0225, best cost 474.267 + 8186.09 = 8660.36 over 154 frames.
+0156.110816.035620.0225 N A L I G A Y A NG P A S K O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0226, best cost 458.997 + 7875.65 = 8334.65 over 147 frames.
+0156.110816.035620.0226 B I N A B A T I K I T K A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0227, best cost 377.196 + 6739.57 = 7116.76 over 134 frames.
+0156.110816.035620.0227 W A L A NG Q A N U M A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0228, best cost 592.993 + 10357.4 = 10950.4 over 183 frames.
+0156.110816.035620.0228 M A N I G U M B A G U NG T A H O N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0229, best cost 880.811 + 14149 = 15029.8 over 264 frames.
+0156.110816.035620.0229 M A L I K A Y A NG B A T I S I I O NG K A Q A R AW UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0230, best cost 899.878 + 14046.1 = 14946 over 264 frames.
+0156.110816.035620.0230 NG M A L I K A Y A NG B A T I S A Q I Y O NG K A ER AW UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0231, best cost 673.463 + 11671 = 12344.5 over 217 frames.
+0156.110816.035620.0231 P A G P A L A AY N K A N A W A N UY S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0232, best cost 404.387 + 6936.97 = 7341.35 over 131 frames.
+0156.110816.035620.0232 W A L L A NG A N U M A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0233, best cost 416.624 + 7504.16 = 7920.78 over 133 frames.
+0156.110816.035620.0233 NG O L A NG Q A N U M A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0234, best cost 363.427 + 6525.27 = 6888.7 over 121 frames.
+0156.110816.035620.0234 M A B U T I N A M A R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0235, best cost 603.61 + 9250.08 = 9853.7 over 172 frames.
+0156.110816.035620.0235 M A G K A N A NG M A G Q A B A L A T P A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0236, best cost 620.587 + 11556.7 = 12177.3 over 216 frames.
+0156.110816.035620.0236 A N U NG P A G K A Q I N A T I N I O N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0237, best cost 670.832 + 10838 = 11508.9 over 200 frames.
+0156.110816.035620.0237 M A G A N D A NG Q U M A G A H O S I I NY O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0238, best cost 548.388 + 8937.25 = 9485.63 over 165 frames.
+0156.110816.035620.0238 M A L I K A Y A NG T H A R AW A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0239, best cost 379.193 + 8173.72 = 8552.92 over 136 frames.
+0156.110816.035620.0239 I L A NG T U N K A N A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0240, best cost 599.974 + 8511.25 = 9111.23 over 159 frames.
+0156.110816.035620.0240 M A R A M I NG S N A L A M A T H O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0241, best cost 444.303 + 7072.57 = 7516.87 over 134 frames.
+0156.110816.035620.0241 Q A N U NG P A NG A L A N M O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0242, best cost 651.816 + 10046 = 10697.9 over 184 frames.
+0156.110816.035620.0242 M A G A N T A NG H A P O N Q U S A Q I NY O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0243, best cost 595.942 + 9571.5 = 10167.4 over 175 frames.
+0156.110816.035620.0243 M A G K A N A M M A G Q A B A N A P A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0244, best cost 415.845 + 7902.17 = 8318.01 over 133 frames.
+0156.110816.035620.0244 I L A NG T A U N K A N A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0245, best cost 600.858 + 9719.97 = 10320.8 over 169 frames.
+0156.110816.035620.0245 A N Q P U NG P A NG A N E N I NY A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0246, best cost 472.51 + 7847.95 = 8320.46 over 144 frames.
+0156.110816.035620.0246 K A NG NG S T A H U K A Y O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0247, best cost 422.666 + 6850.01 = 7272.68 over 127 frames.
+0156.110816.035620.0247 Q I L A NG T O Q N K A N A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0248, best cost 334.44 + 5882.97 = 6217.41 over 108 frames.
+0156.110816.035620.0248 M A H A L K I T A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0249, best cost 328.757 + 6441.11 = 6769.86 over 114 frames.
+0156.110816.035620.0249 U NG S T A K A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0250, best cost 507.182 + 8207.93 = 8715.11 over 155 frames.
+0156.110816.035620.0250 H I N EY SH A K U M A H I N N O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0251, best cost 801.829 + 12937.4 = 13739.3 over 233 frames.
+0156.110816.035620.0251 S I M A I K A G P A A NG K U M A H I N A M A NG G Q A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0252, best cost 874.678 + 12959.8 = 13834.5 over 223 frames.
+0156.110816.035620.0252 T U T U T T U G S I V E N S I S K O D I P A R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0253, best cost 693.728 + 11042.4 = 11736.1 over 211 frames.
+0156.110816.035620.0253 S N A A N A G H A A R A S I M A R I S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0254, best cost 920.675 + 13607.9 = 14528.5 over 241 frames.
+0156.110816.035620.0254 A L I NG K I M I T A NG I P I P I K AY M U S A K A N Y A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0255, best cost 872.359 + 12163.2 = 13035.5 over 217 frames.
+0156.110816.035620.0255 P A Q N A U A L A Q A NG N K A M I T N I M A I UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0256, best cost 591.72 + 9477.98 = 10069.7 over 171 frames.
+0156.110816.035620.0256 G O R U G P A S I M A R I S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0257, best cost 1156.63 + 16646.8 = 17803.4 over 284 frames.
+0156.110816.035620.0257 A L I N N A N H I N Q A NG N A M I T N A Q I B I P I K I M U S A K A N Y A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0259, best cost 726.743 + 11319.3 = 12046 over 200 frames.
+0156.110816.035620.0259 B I P I K I B A SH A L A NG P A G K A H I N Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0260, best cost 737.132 + 10739.8 = 11476.9 over 205 frames.
+0156.110816.035620.0260 N A L A Y O B A A NG B A Y N N I R O N Q U T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0261, best cost 389.65 + 6856.09 = 7245.74 over 125 frames.
+0156.110816.035620.0261 M A B A I T B A SH A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0262, best cost 698.406 + 11334.8 = 12033.2 over 193 frames.
+0156.110816.035620.0262 B I P I L I B A SH O N A P A T K A N H I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0263, best cost 918.209 + 14965.1 = 15883.3 over 263 frames.
+0156.110816.035620.0263 I L I P I N A B A S I JH EY M S Q O Q A M E K A N Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0264, best cost 887.842 + 12983.1 = 13870.9 over 228 frames.
+0156.110816.035620.0264 B I B I L I B A N A NG P A G T AY N S I B A R I S Q E N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0265, best cost 1039.47 + 15097.3 = 16136.8 over 263 frames.
+0156.110816.035620.0265 T U T U G T U T P E S I V ER A Q S K O Q O K A K A N K A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0266, best cost 2732.78 + 40708.6 = 43441.4 over 703 frames.
+0156.110816.035620.0266 I T A L A NG Q I K A L A W A M P U L I T N A N A G R O N P A K N A NG K A N I L A NG P R A SH O N A K R O T U K T O NG M A K U NG P A N Y A N L A N I S M O L A N A NG S UY NG K O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0268, best cost 1798.49 + 26275.3 = 28073.8 over 462 frames.
+0156.110816.035620.0268 I N O P R O P A H A N L A N I T P I JH E M I Q A NG K A G I I S A N U N A N Y AW H I G A N T E NG P A NG K O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0269, best cost 1217.55 + 16781.8 = 17999.4 over 291 frames.
+0156.110816.035620.0269 A T A T ER A B A NG Q A N A N H I N K I K I U M U L O B A S N A NG I N I L A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0270, best cost 858.356 + 11884 = 12742.4 over 216 frames.
+0156.110816.035620.0270 A NG Q U T A NG N A NG P I L I P I N A S AY P U NG A P A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0271, best cost 3532.47 + 53330.7 = 56863.1 over 929 frames.
+0156.110816.035620.0271 Q I T AY M A T K A K O S P U M A L O Q A NG P I S A S K A P A G N A P O T W A L O NG P I S O Q A CH A N A S E N T I M O B A G O T U L OY A NG M A G S N A S A A P A T N A P A T W A T U NG P I S O Q A T S N A NG P O NG S A N P I M O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0272, best cost 2004.95 + 27162.9 = 29167.8 over 493 frames.
+0156.110816.035620.0272 M A G L A L A N A NG S N I P I A N A L A W A M B A N S A P A R A P O N D U H A N A NG M A NG A P ER A Y A T K A N A NG K A G A W A ER UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0273, best cost 4382.6 + 58460.2 = 62842.8 over 1021 frames.
+0156.110816.035620.0273 N A G L E ER O N A M A N Q A NG P A L I T A N A NG D E L E R K A H A P O NG S Q A P A G I T A N A A P A T N A P O T W A L U NG P I S O Q A T A N I N A P A T L I M A NG S A N K I M O H A NG G A NG K A P A T N A P P O T W A L U NG P I S K O Q A T I T U NG T P O T N I M A NG K S A N T E M O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0274, best cost 829.104 + 13492 = 14321.1 over 256 frames.
+0156.110816.035620.0274 N A NG A NG L A NG A N A M A NG A P I L O T A K A NG UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0275, best cost 1795.4 + 28818.3 = 30613.7 over 497 frames.
+0156.110816.035620.0275 N A H I L G I T O N I M A NG P O SH UH N T A NG I T A T A S UY O K SH O N N A NG A S O UY T A O NG N I A T O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0277, best cost 2526.01 + 36816.7 = 39342.7 over 647 frames.
+0156.110816.035620.0277 B A T I K A S I S A K A S L U K U Y A NG B A T A S Q A M A NG A M A NG G A L A M A NG U M A N A S Q I SH O N A NG N I M A R A S N A NG T I T N A T A NG G A T S A M E K A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0278, best cost 1864.83 + 27553.9 = 29418.7 over 494 frames.
+0156.110816.035620.0278 M A G L A L A N A S A L A P I Q A N Q O NG P A N S A P A R A P U N T A H A N A NG M A M A K AY A T T A N A NG K A G A W A R A N Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0280, best cost 1445.07 + 21077.2 = 22522.3 over 366 frames.
+0156.110816.035620.0280 D I K I S K A N T A N A M P A NG P O S N A N T R A N Q A NG K A K A P U S N A N A N D A L I A R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0281, best cost 997.007 + 14028.3 = 15025.3 over 252 frames.
+0156.110816.035620.0281 M A G K A N D A A NG P L A T A P O R M A S E K O N U M I Y A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0282, best cost 1608.53 + 22861.3 = 24469.9 over 400 frames.
+0156.110816.035620.0282 NG N A K A T A K N D A N A M A N I T O I P A T O P A S N A G A ER A T I NG N A NG U N O N O Q U N UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0283, best cost 1599.36 + 24872 = 26471.4 over 434 frames.
+0156.110816.035620.0283 I N A P R U G B A H A N N A N I P I JH E M I Q A K A G I S A N A N UY I K A N K N B U NG K U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0284, best cost 1863.92 + 25597.5 = 27461.4 over 446 frames.
+0156.110816.035620.0284 H I N T I M A SH A N A NG N A A P E K T U H A N A NG L I N T O N A NG P A NG B A S A A N K A N M I Y A N A NG N K I N I SH UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0285, best cost 981.791 + 15687.9 = 16669.7 over 265 frames.
+0156.110816.035620.0285 Q U M U L U S O K A NG K I T A N A N G A N M O N K A T A S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0286, best cost 3141.41 + 44522.1 = 47663.5 over 807 frames.
+0156.110816.035620.0286 K A T I N A Y A N S I N A P I N A N P I Q E S P I N A K K U NG K A R A N O NG M A NG A N A K R A NG T A Q U NG N P O A B A N A NG I K I T I S A NG G A L I A R A NG S I N I S A P A G P A P A G A L A N A NG T O LY UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0287, best cost 1831.85 + 24979.6 = 26811.5 over 436 frames.
+0156.110816.035620.0287 K A G A M I K A N I N G EY UY A T K A S A P E S K A S N A N I Y O G A N K A T N A NG P U M I L I NG T I S Q Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0288, best cost 1758.06 + 24761.1 = 26519.1 over 448 frames.
+0156.110816.035620.0288 I S A NG D A A N A T A L A W A NG P O T N I M U M L I N P I S O NG T P O N D U T P A R E S N A G A O T UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0289, best cost 2653.95 + 40055.4 = 42709.3 over 710 frames.
+0156.110816.035620.0289 NG U H I N A N A M A NG T U M A A S A NG K R E S Y O N L A G I S A T A N E G T I K A NG P A M I K I A S I N A K A M A T A S N A L A B E N A T ER O S A K A I S Q A Q I Q A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0290, best cost 3379.11 + 48191.3 = 51570.4 over 838 frames.
+0156.110816.035620.0290 I K AY M A T A P U S A M A L O A NG P I S A S A Q A P A T N T O T W A L O NG P I S O Q A SH O N A S E N K A M O B A G O T U L I A NG M A G S R E S Q A P A T N A P U T W A L U NG P I S Q A T S A NG P O NG S E N T I M O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0291, best cost 1376.83 + 20374.8 = 21751.6 over 374 frames.
+0156.110816.035620.0291 S A M I L I M N A H A L A N P I L A NG P AW Q U NG K A NG U N U N A NG P I S I S I Q AY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0292, best cost 1885.27 + 26693 = 28578.3 over 490 frames.
+0156.110816.035620.0292 P O NG A I T O N A NG P A T U L I N A P A G T A S A NG H A L A T A N A NG K R U T U S A P A N A Y G G I G A M A M I L I UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0293, best cost 2865.44 + 40322.2 = 43187.6 over 690 frames.
+0156.110816.035620.0293 Q E T A N A A NG T I L A W A NG Q U L I N A N A G O R O L NG P A K N A NG K A N I L A NG K R E ER SH UH N O NG T U K T O A NG A NG A K U NG K A NY A N L I L A G I S M O N A N Q I S A NG L I NG K O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0295, best cost 1940.43 + 30354.2 = 32294.6 over 526 frames.
+0156.110816.035620.0295 M A NG A M A L A A K A L N A N I N I W A L A N A NG L A L U L A L A G K O Q A NG E K O SH A S A L I NG S O G N A NG K O T A P A T O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0297, best cost 4471.22 + 63834.9 = 68306.1 over 1138 frames.
+0156.110816.035620.0297 I P A G P A K A T U L I N Q E T M N I S R A SH O N A M A S A NG M A N A N I T O Q U P AW M A B A Y A R E N A A NG L A H A T N A NG Q U T K A NG L I T U O Q A SH A NG L A L O N A T A P A H I R A T S N A M A NG A P I L I P I N O T A L S A K A NG P O T I A N A NG S A M B A Y A N A NG T I L I P I UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0298, best cost 1963.74 + 27446.6 = 29410.4 over 471 frames.
+0156.110816.035620.0298 K I L A M A H I R I H I S T R O Q I S A NG N B A G U N E K O SH A S Q I B A T I B A NG H E N SH A N A NG G O P I L ER N O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0299, best cost 1380.23 + 20437.8 = 21818 over 366 frames.
+0156.110816.035620.0299 H I N T I I T A G A G K A L A N I P I JH E M I Y A NG P I S O N E M A N S A D O LY A R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0300, best cost 1658.15 + 25669.8 = 27327.9 over 443 frames.
+0156.110816.035620.0300 P A G O UY E K A N U M I Y A N A NG B A N S S A T A K I K I N A B A NG A N A N L A H A UY T O Q K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0301, best cost 3522.33 + 52665.8 = 56188.1 over 911 frames.
+0156.110816.035620.0301 Q U M A B U S A F AY P OY G F AY K N A T R I UY I S O Q A NG N A H I T A L A NG K U T K A NG N A NG M A NG M A T A NG G A P A N A NG P A M A H A N Q A N S A P A G T A T U P U S A S A T I A M UY N O NG N A K A L I A S A T A O N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0303, best cost 700.977 + 11576.2 = 12277.2 over 190 frames.
+0156.110816.035620.0303 M A NG A N K A M A T S A K U NG S A K SH O N N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0304, best cost 2026.98 + 28928.8 = 30955.8 over 502 frames.
+0156.110816.035620.0304 P A M A L O Q A NG Q U T A NG M A NG G O T Y A N O S A T A T N NG T R I Y O N Q A T W N A NG P O T SH A M N A M I U NG P I S Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0307, best cost 2180.2 + 29792.9 = 31973.1 over 529 frames.
+0156.110816.035620.0307 P A T U L AY A K P A M A M A Y A T P A G N A NG H A L A G A N A NG P I S O K O N T R A S Q D O LY A R S A N O T N A NG K I T U NG T A Q O N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0309, best cost 3209.72 + 43527.1 = 46736.8 over 750 frames.
+0156.110816.035620.0309 B U NG S O P O L T A NG Q I P I T I K I I N A N T I T I Q AY S Q A T U T K A P A NG L A D N A NG N A NG A N A T U K O I N AW T A P N A P A L A A W A N P A T K O L E R A K A G T U K T U K A S W I K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0310, best cost 1641.9 + 23175.8 = 24817.7 over 393 frames.
+0156.110816.035620.0310 P A G T A Q A S N A NG S A H O D I S U S U L O NG P A ER A S A M A P A NG P U P I K U NG M A NG G A G K A O K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0312, best cost 1690.02 + 27515.4 = 29205.4 over 482 frames.
+0156.110816.035620.0312 K A N A N A T I G I N A M B A M U S R I S E ER S F I L A L I O N A M N A M A H I N I JH UY I S I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0313, best cost 2317.36 + 34149.7 = 36467.1 over 596 frames.
+0156.110816.035620.0313 P U M A A L O S A A P A T N A P O T P I T U N T I S U Q A T A L A K U NG P U T Q I S A NG S E N T I M O H A NG P I S U S H A L O Q UY T A O N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0314, best cost 1838.62 + 27796.1 = 29634.7 over 498 frames.
+0156.110816.035620.0314 S A K A B I L A N I T O N A G M A M A T I K A S N A M A M A NG G A G T AW A N A I K I T A NG K A N I L A NG K A H I G I NY A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0315, best cost 1327.25 + 17627.1 = 18954.3 over 294 frames.
+0156.110816.035620.0315 N A T P A K I T A NG G I E S M N K I Q A NG P I S L S N A M R K A D UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0317, best cost 803.785 + 13719.2 = 14523 over 238 frames.
+0156.110816.035620.0317 N A K A K A K A H I N K A B A N A N M A H I L S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0318, best cost 866.45 + 12042.5 = 12908.9 over 217 frames.
+0156.110816.035620.0318 Q A N U B A A NG M A B I S A NG G A M O T K I T ER UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0319, best cost 768.599 + 12799.3 = 13567.9 over 216 frames.
+0156.110816.035620.0319 L A G I P A NG S M A S A K I T N A NG L O K U 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0320, best cost 773.048 + 12184.5 = 12957.5 over 225 frames.
+0156.110816.035620.0320 A N O B A NG M A B I S A NG G A M O T S O G P O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0321, best cost 749.076 + 11494.8 = 12243.8 over 203 frames.
+0156.110816.035620.0321 K U M A K A Y N K A B A N A NG M A A L I L S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0322, best cost 676.634 + 10539.6 = 11216.3 over 186 frames.
+0156.110816.035620.0322 M A G A N U M A G K A K U T O K T AW R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0323, best cost 583.653 + 7826.79 = 8410.44 over 142 frames.
+0156.110816.035620.0323 M A G K A N A NG K P O A NG G A M O T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0324, best cost 850.341 + 13327.8 = 14178.2 over 225 frames.
+0156.110816.035620.0324 P A N O P U M A T U T U K AY A NG S A K I T N A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0325, best cost 596.474 + 9424.23 = 10020.7 over 173 frames.
+0156.110816.035620.0325 M A G A N A NG H A P U N P U U T O K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0326, best cost 736.526 + 11392.2 = 12128.7 over 216 frames.
+0156.110816.035620.0326 H I N Y A K U M A K A K A AY N A NG M A A Y O S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0327, best cost 581.568 + 8767.74 = 9349.3 over 152 frames.
+0156.110816.035620.0327 M A G K A D A NG G A B I H O D O K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0329, best cost 772.823 + 10986.3 = 11759.2 over 201 frames.
+0156.110816.035620.0329 H I N G I SH A M A K A Y NG A N A NG Q A Y O T S 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0330, best cost 655.066 + 9843.53 = 10498.6 over 170 frames.
+0156.110816.035620.0330 M A G A N N A NG G A P I T O K T AW UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0331, best cost 661.886 + 9874.03 = 10535.9 over 166 frames.
+0156.110816.035620.0331 M A G A N Q A NG G A K EY T O K T O N K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0332, best cost 958.742 + 14661.6 = 15620.3 over 229 frames.
+0156.110816.035620.0332 Q A Q A K I N U T U UY T U UY O K A NG S A K T I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0333, best cost 1375.51 + 19460.7 = 20836.2 over 337 frames.
+0156.110816.035620.0333 N A K A K A S A M A S A K A L O S O G A N A NG S O P Q A NG P A G Q I N U M N A NG Q A L A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0334, best cost 872.199 + 12464.6 = 13336.8 over 217 frames.
+0156.110816.035620.0334 N A S A T U G O N I U NG P A Y O NG G A NY A NG S A K I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0336, best cost 689.666 + 10554.1 = 11243.8 over 188 frames.
+0156.110816.035620.0336 M A G A N D A NG H A P U N U D O K T O R 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0337, best cost 618.583 + 9625 = 10243.6 over 182 frames.
+0156.110816.035620.0337 Q I Q O S K A S A M A M A A Q A L A T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0338, best cost 739.983 + 11770.2 = 12510.2 over 218 frames.
+0156.110816.035620.0338 W A G K A NG K A M A H I N A M A NG A M A A Q A L A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0339, best cost 447.982 + 8157.57 = 8605.55 over 142 frames.
+0156.110816.035620.0339 M A G A N E K A B I T O K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0340, best cost 761.645 + 12279.9 = 13041.6 over 208 frames.
+0156.110816.035620.0340 I S A UY U N A P W A K U NG I N U NG K O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0341, best cost 1063.9 + 18192.2 = 19256.1 over 324 frames.
+0156.110816.035620.0341 N A W A W A L A A NG A R I NG O N E T A NG Q U R I Q A H I N D I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0342, best cost 869.656 + 13079.6 = 13949.2 over 240 frames.
+0156.110816.035620.0342 N A S E K Y E S A NG Q A W A N A S A T A NG A NG G A W A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0343, best cost 1144.06 + 16817.8 = 17961.9 over 302 frames.
+0156.110816.035620.0343 NG W A L A NG M A P A I T N A T U T O NG S A T A O NG N A G K U G U T O NG 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0344, best cost 2065.33 + 36227.6 = 38292.9 over 637 frames.
+0156.110816.035620.0344 K A P A G A G EY L A G AY M A T A H I I M I G A S A H A N M O T M A L A L I M A P A G A N H I L A G AY M I Q I Q A S A H A N UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0345, best cost 1164.15 + 17277.7 = 18441.8 over 315 frames.
+0156.110816.035620.0345 Q A N T A A NG M A Y N G I T I N L I M I G A Y A M A N A I S L EY R I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0346, best cost 714.569 + 12736.2 = 13450.8 over 232 frames.
+0156.110816.035620.0346 K O Q N O A NG P U N O SH A A NG M B U NG A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0347, best cost 2104.76 + 29567.5 = 31672.3 over 502 frames.
+0156.110816.035620.0347 Q A NG H I N T I M A R U N U L U M I NG O N S P I T A NG G A G I NG A N AY H I N T I M A K A K A R E T I NG S A P A R O Q R O Q O N UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0348, best cost 996.328 + 15290.7 = 16287 over 266 frames.
+0156.110816.035620.0348 A A N H I N T A NG D A M O K U NG P A T E N N A A NG K A B A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0350, best cost 1328.35 + 19661.5 = 20989.9 over 328 frames.
+0156.110816.035620.0350 A NG S A K I T N A NG K A L I NG K I NG E N E M D A M I N A NG B O Q K A T K A W A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0351, best cost 893.09 + 15658.5 = 16551.6 over 284 frames.
+0156.110816.035620.0351 H A NG P A S A K A L A B AW S A K A B A Y A NG L A T AY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0353, best cost 2019.33 + 33975.5 = 35994.8 over 580 frames.
+0156.110816.035620.0353 A M B U NG H I N A G S A S A NG A A M A T A M I S A NG L A S A NG Q A NG P O NG H I N A G S A P I L I K U NG K Q EY N I N AY M A P R I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0354, best cost 1370.97 + 18982 = 20353 over 331 frames.
+0156.110816.035620.0354 H W A G L U M I L A NG N A M A N O K A NG G A T I NG G I N A P I P I S A A NG Q I K L O G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0355, best cost 982.869 + 13562.4 = 14545.2 over 240 frames.
+0156.110816.035620.0355 N A S A JH O S A NG A A W A A N A S A T A O Q A NG K H O Q Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0356, best cost 1749.87 + 24628.4 = 26378.3 over 423 frames.
+0156.110816.035620.0356 A H I N D I L I M I N O N S P I N A NG G A L I NG A N H I N G I M A K A K A R A T I NG S A T A R O Q R O Q O N A Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0357, best cost 662.506 + 12309.6 = 12972.1 over 211 frames.
+0156.110816.035620.0357 K U W A N O A NG P U N O SH A NG M UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0359, best cost 2879.77 + 44993.6 = 47873.4 over 788 frames.
+0156.110816.035620.0359 B A T A T M A T A N T A S A NG P O M A M A B A B A I Y AY M A R U N O NG P O W A S N A T K A T S U M U L A T NG A N T A N E K A NG P A G S Q U L A T N A T I NG M A NG A T E K A N L O G 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0361, best cost 2276.8 + 32168.2 = 34445 over 593 frames.
+0156.110816.035620.0361 Q I T U NG K A T A G A L U G K A N E K I N A M A A M A H A L A H A N N A NG Q U N A NG P A N A H O N A NG A H A T I NG T U N AY N A M A NG A K A P A B A Y UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0363, best cost 2765.03 + 41872.9 = 44637.9 over 756 frames.
+0156.110816.035620.0363 I T EY SH A NG T E T A U U N A P A K T A G E S A A NG G Q E N A NG H A R I NG S I K A T U T N N A UY A S P I N A T P I N A K A K A T A W A N A N A NG H A R I S Q E S A N NY A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0364, best cost 5045.87 + 79987.9 = 85033.8 over 1396 frames.
+0156.110816.035620.0364 K A Y A Q O A M A NG A K A B U T A Y A N A T I NG I T I L A Q A M B U L A G N A K I S I P A N A T K U S A NG H I K U G K O L S UY K A G A L I N E N Q A NG Q A T I NG L A K A S A T U N A Y A T N A NG P O S N A P A G H A S A N A M A G T A G K U NG T AY S K A N I L A L A Y A NG K A G I I N A W A N Q N A M B A Y A T I N A NG P U H A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0366, best cost 1133.5 + 18060.3 = 19193.8 over 314 frames.
+0156.110816.035620.0366 B U N T U NG H I N I N A T H I N A G P I S N A NG M A K A P A L N A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0367, best cost 2269.27 + 34281 = 36550.3 over 619 frames.
+0156.110816.035620.0367 B A Y A Q A N M O A NG B I K A N N A NG M A P A L I N L A NG N A M A CH I NG Q A K O Q A NG A A K K I A T A T M A M I M I T A S P A R A S E Q I Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0370, best cost 3642.79 + 54190.2 = 57833 over 964 frames.
+0156.110816.035620.0370 N A NG M A K I T A N A NG M A T S I NG A NG M A NG A NG P U NG O N H I N O G N A N A T B I T I T S P A G I T A N A NG M A N L A K T I T L U N T I Q A NG N T A H O N SH A Y U M A K Y A T M A T U L I N N A M I T A S T K U M A R I N A NG K U M A H I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0371, best cost 1711.96 + 26015.8 = 27727.8 over 447 frames.
+0156.110816.035620.0371 NG O N I T I A M A K A K AY M A K N B I G A H I T A M I M I Q I N K I T A N A NG I Y A NG K A M A T A H I Y A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0372, best cost 2987.71 + 43499.6 = 46487.3 over 775 frames.
+0156.110816.035620.0372 Q I T EY S A NG M A G A N D A NG P U N O NG M A N L A K T I T N U N T I Q A NG N NG T A H O N Q A T M AY M A NG Q U G K A T P A NG M W A R I K A P U P U W A L A M A NG P A G K A T UY A G K I Q O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0373, best cost 1550.52 + 19767.2 = 21317.7 over 357 frames.
+0156.110816.035620.0373 N A S A K T A NG L U B H A A NG M A T S I NG A T A S O G A T A N UY T A O N N A NG B U W A P A K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0374, best cost 1663.3 + 24298.3 = 25961.6 over 417 frames.
+0156.110816.035620.0374 A NG L U S O NG Q A NG L U S O Q A NG S N A G O T N A NG P A G O NG NG N A T A T A K O T A K U NG M A L U N O D 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0376, best cost 2472.99 + 45324.2 = 47797.2 over 815 frames.
+0156.110816.035620.0376 D I T AY M A B A B A K A S A NG M A R A M M A A K A S A B I Q A N M A NG M A P A R I L A L A T M A NG A H A L I N T O L A R E N N A N A B A P A T AY S A H A R UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0377, best cost 6653.38 + 97338.7 = 103992 over 1721 frames.
+0156.110816.035620.0377 NG U N I T A H A L I M A A NG H I N D I M A A ER U M A K E T S A P P U N O K A H U OY Q A NG P A R I L A L A N I T A AY M A G K I G L A L O N T A M A S A P A G K O A NG Q S E A M I N A N I W UY Q A NG A L I M A M A M A Y S I P I T E T M A NG A P A Q A A AY M A A R E U M A K K A T N A K A T U L A D N A NG M A T S I G Q M A G A L I NG N A A K A T N A A L I M A M O A NG Q A L I M A N B A G T O NG O Q O G Q A T I T O P A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0378, best cost 7633.2 + 118884 = 126517 over 2100 frames.
+0156.110816.035620.0378 Q I S A M A Q EY N A T N A P A G S U UY P A G T U T U G UY A NG M A G T U T U R O S H A T I N N A NG T U N I N A B U T N A N A G A O NG K W E N T A I G A L I NG S A T I NG U G S A S U M A T T R A H A B A M I N T A N ER AW O O K A Y A T T I L I N A M A NG K A I S A K A P U L O Q A NG P I K I P I N A S A P A G E T A P U S AY D I N A L A N A M A NG A T AW L A H I NG L U W I T A T S N A G A M I G I L A L K A K U K U NG M A N E R A N S A M A NG T P U L O N A NG H A P O N A T R I O UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0379, best cost 3299.76 + 52746 = 56045.7 over 894 frames.
+0156.110816.035620.0379 N A S A K E N T U NG P I L I P I N A A NG K A T A L A S A N A I K I S I T A T K L I N A W A N A NG P A G S A S N I S N A I S A M A T A N A S A K O N T A K A P U N A NG M A N AY N A R O Q N A NG K A NG R A T K A B Y A S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0382, best cost 4220.16 + 69028.3 = 73248.4 over 1194 frames.
+0156.110816.035620.0382 Q I T I T R I T O A NG P A R I L A L A NG Q I T O I T O NG Q U N U N T I N Q A T I G I S A NG P U N O K A H O I Q A NG P O N A NG K A H A Q AY N H I T I K S A B U NG A N A NG K A K I K A I K I T N A N A B U B A G A F I S A NG P U N O NG S A T I NG K I I S A G P O T O N A K A K I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0384, best cost 3223.62 + 50397.2 = 53620.8 over 888 frames.
+0156.110816.035620.0384 NG B A H A G L I T O AY I T I L I S I N I I T N A UY N T I M A T A L I N A NG M A N A N E N I S A I P U P A M O B I K Y A N G A A N M A R A H I L A NG K AY UY L I M A M O A T P A G K I K E N T I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0385, best cost 6056.23 + 94036.1 = 100092 over 1658 frames.
+0156.110816.035620.0385 I Q I N S A M A NG A M A NG A M A Y A N N N A NG P A N A NG A N L I Y O N N NG M A NG A K A S I L AY M I N A M U L I N M I S A NG Q E NG K A N T A D O N A K S L U K U Y A N I L A N I S F N E S A Q I L A L I N S E UY S N I S M O Q I S A NG P A M A M A R A A N A NG S M B A H A N Q U P O NG S U P Q I N A NG N M A S Q A M A NG S P I Q I T U G N A S S U M A A P I S A K A T A O N A UY N T A D O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0386, best cost 1709.1 + 24892.8 = 26602 over 442 frames.
+0156.110816.035620.0386 P U W E Z T O SH A S A U N A NG P I L A NG P A G P A P A K I L A N A NG SH A NG P I N U N O N A M A NG A I T T O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0387, best cost 1681.2 + 32852.7 = 34533.9 over 560 frames.
+0156.110816.035620.0387 M A H I K I T Q S A NG T O N P A L A A N A G A G O A NY A NG N P O N G T I N A NG M A M A P A K O S UY O Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0388, best cost 1829.78 + 25927.3 = 27757.1 over 455 frames.
+0156.110816.035620.0388 Q I S A NG G A B I N A G L A L A K A T S I H I P O T I P O T K A T O NG M O S A B A Y N A K A NY A NG K AY P I K UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0391, best cost 3148.68 + 47783.5 = 50932.2 over 849 frames.
+0156.110816.035620.0391 N U NG P A N A H O N N A NG A NG P I P I N A S E I N A V E S A K A N A M A K A S K I L A AY M A Y R U NG M A G K A S A W A NG N A N I N E ER A H A N S A P A N A N N A NG B U N D O K UY N M A T AY R I S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0392, best cost 3570.94 + 60568 = 64139 over 1032 frames.
+0156.110816.035620.0392 P O K O D O O N NG P I L I Y A A N G I N I P A T H A L A Q A NG S A NG N G O L N A P A NG B I H I R A NG L A K A S A T K I S I G S I M B U L O N A NG L A K A S N A P A N A N A UY L O Q O L I K I N A M A N E S UY K U L UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0393, best cost 1683.98 + 25085.3 = 26769.3 over 431 frames.
+0156.110816.035620.0393 Q A NG L U S O NG A NG L U S O NG V A G K O T N A NG K A G K O NG NG A T A T A K O T A K NG M A L U N O D 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0394, best cost 2137.76 + 39058.4 = 41196.1 over 655 frames.
+0156.110816.035620.0394 NG M I K H A M U NG M A K A S A T U M I N T Y A NG P A UY I SH A N A M A NG H I N A NG H A W A K N A N A N L A S A K A NY A NG A NG G I N O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0397, best cost 2712.51 + 42327.9 = 45040.4 over 729 frames.
+0156.110816.035620.0397 G A N A N P A M A T S I L AY M A S A Y A S A K A N I L A NG N P U R EY T M A T O N U M I T S A K A P A L A L U N A T U L A D N I L A NG N A T I H I R A K A T S A M A NG A M I S I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0398, best cost 5401.11 + 96611.4 = 102013 over 1615 frames.
+0156.110816.035620.0398 I Q NG S A M A M A M A Y A N N N U NG K A N A NG A N Q I H I A N R A M A A K A S K I L AY M I N A M U L I NG Q I S A E NG K A N T A D O N A K A S UY N A S UY S E K E K R K I S NG O S A NG P A M A M A R A A N A NG B A H A N Q U P O NG S U P U I N A NG N NG S N A M A G NG S P I R I T U N A S O NG M A P I S A K A T A O N UY T A NG T D O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0399, best cost 1225.83 + 18887.7 = 20113.5 over 319 frames.
+0156.110816.035620.0399 H I N G A K U D U W A UY K A L I T A S N A G O T N A NG A T I T Q K A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0400, best cost 1675.62 + 23681.4 = 25357 over 416 frames.
+0156.110816.035620.0400 F A M A H A B U NG K A N A H O N A NG K A N Q A NG P A G S A S H A M A NG I N N I S I L A A G K A T N A G K A UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0401, best cost 2321.76 + 39690.1 = 42011.9 over 715 frames.
+0156.110816.035620.0401 K N K A R A N Q I L A NG S A N D A L I A NG K A G K O NG I N U M I T A U N Q A D U M A N A M O I Q A T N A G T A T A T A W A S A N E T A Y A NG UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0403, best cost 2307.72 + 32734.5 = 35042.3 over 562 frames.
+0156.110816.035620.0403 T I N A S A N A NG N A CH EY N A NG K A G K O NG N A T T U M U S UY T A P I NG Q I L O K A S N A K A I T I N A P O N A NG K A N I N G A L A S A T U B I K 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0404, best cost 3120.27 + 46629 = 49749.3 over 796 frames.
+0156.110816.035620.0404 K I N A B A K A S A N M A A L E T U NG G A M I S A T P I N A M A L I T A S A L A H A T H A B A H UY N A K AY D O L A T I M I T A UY I L A NG S I I P O T I P O T AY K A R NG T W A G T O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0405, best cost 3214.93 + 62406.6 = 65621.5 over 1046 frames.
+0156.110816.035620.0405 B U K O D O Q O N P I G I Q A Y A A N N D I M I NG P A T H A L A NG S UY K A S A T K I S I S I M P R A N L A K A S N A P A N A N A N I T Q E K A G K A N T A UY A O G Q N A I P I N A M A N A S UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0406, best cost 1685.6 + 34490.5 = 36176.1 over 581 frames.
+0156.110816.035620.0406 A T K A Y A N A B A T A NG G A M U G A M O SH A N A K A T A K N A NG A M A T AY N A M A ER UY K I I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0408, best cost 3580.3 + 58630.9 = 62211.1 over 1042 frames.
+0156.110816.035620.0408 D A S N A K A N I N AY P I N A M A N A S N A K A NG P O T I H A N P A G T R K I I S A T A N A N A L I Q AY K I N A A W A Q A N D I N S I L A N I T A T H A L A A T I N I N I K A NG K A N I L A NG P A N A N A N A M A G K O R O N A UY A N A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0409, best cost 1891.66 + 32290.6 = 34182.2 over 561 frames.
+0156.110816.035620.0409 N I N A N A N I H A G I P I S A NG M A NG A K A N A UY P A Q A N A N A NG L I B A T I N A NG K A N I L A Y T U NG P A S O K I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0410, best cost 965.863 + 16675.6 = 17641.4 over 307 frames.
+0156.110816.035620.0410 A NG P A G K A K A H I S N A N T P A NG G P A P A Y A N I H A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0411, best cost 856.031 + 14818.1 = 15674.1 over 269 frames.
+0156.110816.035620.0411 S A M A G P U T I NG Q A N A K AY B U H AY N A N UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0412, best cost 858.192 + 13928.2 = 14786.4 over 249 frames.
+0156.110816.035620.0412 SH A NG U B U B U K A S A M A L A Y A NG P U B UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0413, best cost 867.498 + 14516.6 = 15384.1 over 263 frames.
+0156.110816.035620.0413 A R E K I S A NG D A T I H I N A N A P P I N I P I 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0414, best cost 777.175 + 16442.7 = 17219.9 over 283 frames.
+0156.110816.035620.0414 Q I K T AY P I L I P I N A N A D A P A T UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0415, best cost 1040.35 + 15674.5 = 16714.9 over 267 frames.
+0156.110816.035620.0415 N A G O S UY U NG S A B I H W A T L A H I N M A K A B A Y A N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0416, best cost 953.617 + 14136.2 = 15089.8 over 246 frames.
+0156.110816.035620.0416 K U NG S A S E R I W A Q I N A T P A G T A P A L I K A N Q 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0417, best cost 764.187 + 11789.9 = 12554.1 over 230 frames.
+0156.110816.035620.0417 Q I N E T A O G N A N I K I T A N I T A T AY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0418, best cost 955.084 + 13874.9 = 14830 over 242 frames.
+0156.110816.035620.0418 F A K A NY A NG S E K I T A NG K A L O P N A N UY I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0419, best cost 897.812 + 13775.5 = 14673.3 over 239 frames.
+0156.110816.035620.0419 P A G K A T A NG S A L I T AY Q I S A NG K A H A T U L UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0420, best cost 874.119 + 14023.3 = 14897.5 over 256 frames.
+0156.110816.035620.0420 K A Y A NG M A R A P A T P A G Y A M A N I N T K UY 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0421, best cost 987.81 + 15708.1 = 16695.9 over 281 frames.
+0156.110816.035620.0421 A NG N SH A NG M E K A T AW A G N A G P I K I K I S A A T I N 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0422, best cost 787.552 + 11098.6 = 11886.2 over 201 frames.
+0156.110816.035620.0422 B U K S A N NG M A N T A L I B EY SH A N A T T A 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0423, best cost 845.086 + 12832.6 = 13677.7 over 233 frames.
+0156.110816.035620.0423 K A T U L A N Q I B U NG N A S A H I NG P O K O B I T 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:99) For utterance 0156.110816.035620.0424, best cost 733.968 + 11027.7 = 11761.7 over 189 frames.
+0156.110816.035620.0424 K I K I L O NG M B A K A Y A N I P E K R O 
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:124) Overall cost per frame is 60.1518 = 3.51067 [graph] + 56.6411 [acoustic] over 99306 frames.
+LOG (lattice-best-path[5.5.224~1-8460f]:main():lattice-best-path.cc:128) Done 377 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sat Apr 27 19:32:14 PST 2019, elapsed time 1 seconds
