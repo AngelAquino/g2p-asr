@@ -1,0 +1,3 @@
+../data/_small/test/CEB/4703.111020.092714.csv
+../data/_small/test/HIL/0738.130117.075101.csv
+../data/_small/test/TGL/0156.110816.035620.csv

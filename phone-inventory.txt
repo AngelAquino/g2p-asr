@@ -1,0 +1,48 @@
+Notes:
+- Each underscore-separated utterance in the transcription CSV denotes a space-separated
+
+Vowels/Diphthongs
+A
+E
+I
+O
+U
+AY
+AW
+EY
+IW
+OY
+OW
+UY
+UH  "g/u/m"
+AE  "/a/pple"
+AO  "b/o/mb"
+
+Consonants
+P
+B
+T
+TH
+D
+DH
+K
+G
+Q   glottal stop
+M
+N
+NY  "mile/ny/o"
+NG
+R
+ER  "b/ir/d"
+F
+V
+S
+Z
+SH
+H
+CH  "/ch/oose"
+JH  "/j/ump"
+W
+Y
+L
+LY  "pi/ly/a"

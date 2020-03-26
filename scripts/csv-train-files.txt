@@ -1,0 +1,6 @@
+../data/_small/train/CEB/2998.111024.084752.csv
+../data/_small/train/CEB/8973.111024.032108.csv
+../data/_small/train/HIL/0739.130130.063449.csv
+../data/_small/train/HIL/0740.130201.010543.csv
+../data/_small/train/TGL/0812.110816.021250.csv
+../data/_small/train/TGL/2359.110818.085852.csv
