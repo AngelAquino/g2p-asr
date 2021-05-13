@@ -1,5 +1,5 @@
 Notes:
-- Each underscore-separated utterance in the transcription CSV denotes a space-separated
+- Each underscore-separated utterance in the transcription CSV denotes a space-separated word in the orthography.
 
 Vowels/Diphthongs
 A
