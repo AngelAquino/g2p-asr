@@ -23,7 +23,7 @@ If you use any of the data or findings provided above, please cite:
 A. Aquino, J. L. Tsang, C. R. Lucas and F. de Leon, "G2P and ASR techniques for low-resource phonetic transcription of Tagalog, Cebuano, and Hiligaynon," 2019 International Symposium on Multimedia and Communication Technology (ISMAC), 2019, pp. 1-5, doi: 10.1109/ISMAC.2019.8836168.
 ```
 ```
-@inproceedings{aquino-etal-2019,
+@inproceedings{aquino-etal-2019-g2p,
     title = "{G2P} and {ASR} techniques for low-resource phonetic transcription of {T}agalog, {C}ebuano, and {H}iligaynon",
     author = "Aquino, Angelina  and
       Tshang, Joshua Lijandro  and
