@@ -14,8 +14,8 @@ The `data` folder contains the following subfolders:
 Each of the two folders above contains the following subfolders:
 - `train`: Metadata, orthographic transcriptions, and gold phonetic transcriptions for each of the recordings used as training data.
 - `testref`: Metadata, orthographic transcriptions, and gold phonetic transcriptions for each of the recordings used as test data.
-- `test`: Metadata, orthographic transcriptions, and G2P-generated phonetic transcriptions for each of the recordings used as training data.
-- `adapt`: Runtime logs and adaptive system-generated phonetic transcriptions for each of the recordings used as training data.
+- `test`: Metadata, orthographic transcriptions, and G2P-generated phonetic transcriptions for each of the recordings used as test data.
+- `adapt`: Runtime logs and adaptive system-generated phonetic transcriptions for each of the recordings used as test data.
 
 ## Citation
 If you use any of the data or findings provided above, please cite:
